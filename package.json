@@ -7,7 +7,10 @@
     "url": "https://github.com/bestGao/keep_growing_server.git"
   },
   "scripts": {
+    "bind": "pm2 link sxqd4rav0ygp7q0 l7n5f48t594f5hq keep_growing_server",
+    "stop": "pm2 stop keep_growing_server",
     "tsc": "tsc",
+    "start": "npm run tsc && pm2 start ./dist/app.js --name keep_growing_server -f",
     "dev": "nodemon --watch src -e ts,tsx,js,json --exec node --inspect -r ts-node/register ./src/app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +23,7 @@
     "express": "^4.17.1",
     "mysql": "^2.18.1",
     "nodemon": "^2.0.4",
+    "pm2": "^4.4.1",
     "ts-node": "^9.0.0",
     "typescript": "^3.9.7"
   }

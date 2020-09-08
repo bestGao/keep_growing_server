@@ -2,18 +2,18 @@ import express = require('express');
 import mysql = require('mysql');
 
 const connection = mysql.createConnection({
-    host: 'localhost',
+    host: '10.50.243.135',
     user: 'root',
     password: '123456',
-    database: 'gao'
+    database: 'mysql'
 });
 
 connection.connect();
 // connection.query('truncate table users', function() {})
-connection.query('INSERT INTO users (name, age) VALUES ("我是你爸爸", 18)', function (error, results, fields) {
-    if (error) throw error;
-    // console.log('The solution is: ', results[0].solution);
-});
+// connection.query('INSERT INTO users (name, age) VALUES ("我是你爸爸", 18)', function (error, results, fields) {
+//     if (error) throw error;
+//     // console.log('The solution is: ', results[0].solution);
+// });
 
 // connection.query('ALTER TABLE users ADD COLUMN age int(10) DEFAULT NULL COMMENT "年龄"', function (error, results, fields) {
 //     if (error) throw error;
@@ -28,7 +28,7 @@ connection.query('INSERT INTO users (name, age) VALUES ("我是你爸爸", 18)',
 // Create a new express app instance
 const app: express.Application = express();
 app.get('/', function (req, res) {
-    res.send('Hello World dsf!');
+    res.send('fddsadsasf');
 });
 app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
