@@ -1,0 +1,330 @@
+{
+  "cluster": {
+    "listen": {
+      "port": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.default.js",
+      "path": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "keys": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.default.js",
+  "middleware": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.default.js",
+  "security": {
+    "csrf": {
+      "enable": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.default.js",
+      "type": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "httpAuth": {
+    "match": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.default.js"
+  },
+  "cors": {
+    "origin": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.default.js",
+    "allowMethods": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.default.js"
+  },
+  "redis": {
+    "app": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.local.js",
+    "agent": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.local.js",
+    "client": {
+      "host": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.local.js",
+      "port": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.local.js",
+      "password": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.local.js",
+      "db": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.local.js"
+    }
+  },
+  "logger": {
+    "level": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.default.js",
+    "allowDebugAtProd": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.default.js",
+    "dir": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.default.js",
+    "appLogName": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.default.js",
+    "coreLogName": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.default.js",
+    "agentLogName": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.default.js",
+    "errorLogName": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.default.js",
+    "encoding": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+    "env": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.local.js"
+    }
+  },
+  "sequelize": {
+    "dialect": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.local.js",
+    "host": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.local.js",
+    "port": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.local.js",
+    "database": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.local.js",
+    "username": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.local.js",
+    "password": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.local.js",
+    "timezone": "/Users/gaojianbo/Documents/private/keep_growing_server/config/config.local.js"
+  },
+  "session": {
+    "maxAge": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-view/config/config.default.js"
+  },
+  "validate": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-validate/config/config.default.js",
+  "env": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+  "name": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+    "version": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+    "description": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+    "private": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "consul": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "egg": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "egg-path-matching": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "egg-redis": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "ip": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "mysql2": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "docker": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "stop": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "dev": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "debug": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "test": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "cov": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "lint": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "ci": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "autod": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "url": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+    "license": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+    "strict": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "depth": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+    "logging": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/config/config.default.js"
+}

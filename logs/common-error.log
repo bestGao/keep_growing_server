@@ -1,0 +1,319 @@
+2020-12-02 17:51:31,193 ERROR 62351 [beforeClose error] TypeError: Cannot read property 'unregisterToConsul' of undefined
+    at AppBootHook.beforeClose (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:171:33)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at Lifecycle.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:123:19)
+    at Application.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/egg.js:288:42)
+    at beforeExit (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-cluster/lib/app_worker.js:116:25)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/graceful-process/exit.js:16:16
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+2020-12-02 17:51:31,297 ERROR 62349 [beforeClose error] TypeError: Cannot read property 'unregisterToConsul' of undefined
+    at AppBootHook.beforeClose (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:171:33)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at Lifecycle.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:123:19)
+    at Application.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/egg.js:288:42)
+    at beforeExit (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-cluster/lib/app_worker.js:116:25)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/graceful-process/exit.js:16:16
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+2020-12-02 17:51:31,299 ERROR 62353 [beforeClose error] TypeError: Cannot read property 'unregisterToConsul' of undefined
+    at AppBootHook.beforeClose (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:171:33)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at Lifecycle.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:123:19)
+    at Application.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/egg.js:288:42)
+    at beforeExit (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-cluster/lib/app_worker.js:116:25)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/graceful-process/exit.js:16:16
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+2020-12-02 17:51:31,339 ERROR 62352 [beforeClose error] TypeError: Cannot read property 'unregisterToConsul' of undefined
+    at AppBootHook.beforeClose (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:171:33)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at Lifecycle.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:123:19)
+    at Application.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/egg.js:288:42)
+    at beforeExit (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-cluster/lib/app_worker.js:116:25)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/graceful-process/exit.js:16:16
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+2020-12-02 17:51:31,338 ERROR 62350 [beforeClose error] TypeError: Cannot read property 'unregisterToConsul' of undefined
+    at AppBootHook.beforeClose (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:171:33)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at Lifecycle.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:123:19)
+    at Application.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/egg.js:288:42)
+    at beforeExit (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-cluster/lib/app_worker.js:116:25)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/graceful-process/exit.js:16:16
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+2020-12-02 17:51:31,329 ERROR 62354 [beforeClose error] TypeError: Cannot read property 'unregisterToConsul' of undefined
+    at AppBootHook.beforeClose (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:171:33)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at Lifecycle.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:123:19)
+    at Application.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/egg.js:288:42)
+    at beforeExit (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-cluster/lib/app_worker.js:116:25)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/graceful-process/exit.js:16:16
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+2020-12-02 17:51:31,339 ERROR 62356 [beforeClose error] TypeError: Cannot read property 'unregisterToConsul' of undefined
+    at AppBootHook.beforeClose (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:171:33)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at Lifecycle.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:123:19)
+    at Application.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/egg.js:288:42)
+    at beforeExit (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-cluster/lib/app_worker.js:116:25)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/graceful-process/exit.js:16:16
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+2020-12-02 17:51:31,353 ERROR 62355 [beforeClose error] TypeError: Cannot read property 'unregisterToConsul' of undefined
+    at AppBootHook.beforeClose (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:171:33)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at Lifecycle.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:123:19)
+    at Application.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/egg.js:288:42)
+    at beforeExit (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-cluster/lib/app_worker.js:116:25)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/graceful-process/exit.js:16:16
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+2020-12-02 17:51:31,380 ERROR 62348 [beforeClose error] TypeError: Cannot read property 'unregisterToConsul' of undefined
+    at AppBootHook.beforeClose (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:171:33)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at Lifecycle.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:123:19)
+    at Application.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/egg.js:288:42)
+    at beforeExit (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-cluster/lib/app_worker.js:116:25)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/graceful-process/exit.js:16:16
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+2020-12-02 17:51:31,394 ERROR 62359 [beforeClose error] TypeError: Cannot read property 'unregisterToConsul' of undefined
+    at AppBootHook.beforeClose (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:171:33)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at Lifecycle.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:123:19)
+    at Application.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/egg.js:288:42)
+    at beforeExit (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-cluster/lib/app_worker.js:116:25)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/graceful-process/exit.js:16:16
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+2020-12-02 17:51:31,395 ERROR 62357 [beforeClose error] TypeError: Cannot read property 'unregisterToConsul' of undefined
+    at AppBootHook.beforeClose (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:171:33)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at Lifecycle.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:123:19)
+    at Application.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/egg.js:288:42)
+    at beforeExit (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-cluster/lib/app_worker.js:116:25)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/graceful-process/exit.js:16:16
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+2020-12-02 17:51:31,402 ERROR 62358 [beforeClose error] TypeError: Cannot read property 'unregisterToConsul' of undefined
+    at AppBootHook.beforeClose (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:171:33)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at Lifecycle.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:123:19)
+    at Application.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/egg.js:288:42)
+    at beforeExit (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-cluster/lib/app_worker.js:116:25)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/graceful-process/exit.js:16:16
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+2020-12-02 17:51:56,771 ERROR 62625 [fetchConfig has error] Error: consul: agent.service.register: name required
+    at create (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/consul/lib/errors.js:14:5)
+    at Object.validation [as Validation] (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/consul/lib/errors.js:26:15)
+    at AgentService.register (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/consul/lib/agent/service.js:65:45)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/papi/lib/tools.js:108:23
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/papi/lib/tools.js:66:14
+    at new Promise (<anonymous>)
+    at fromCallback (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/papi/lib/tools.js:64:10)
+    at AgentService.client.<computed> [as register] (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/papi/lib/tools.js:106:18)
+    at ConsulTool.initConsul (/Users/gaojianbo/Documents/private/keep_growing_server/app/utils/consultool.js:31:43)
+    at AppBootHook.willReady (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:54:24) {
+  isConsul: true,
+  isValidation: true
+}
+2020-12-02 17:53:33,791 ERROR 62892 [fetchConfig has error] TypeError: Cannot read property 'connect' of undefined
+    at ConsulTool.initConsul (/Users/gaojianbo/Documents/private/keep_growing_server/app/utils/consultool.js:15:20)
+    at AppBootHook.willReady (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:54:24)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+2020-12-02 17:54:40,327 ERROR 62892 [beforeClose error] TypeError: Cannot read property 'register' of undefined
+    at ConsulTool.unregisterToConsul (/Users/gaojianbo/Documents/private/keep_growing_server/app/utils/consultool.js:39:20)
+    at AppBootHook.beforeClose (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:171:33)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at Lifecycle.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:123:19)
+    at Application.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/egg.js:288:42)
+    at beforeExit (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-cluster/lib/app_worker.js:116:25)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/graceful-process/exit.js:16:16
+2020-12-02 17:54:41,443 ERROR 63040 [beforeClose error] TypeError: Cannot read property 'unregisterToConsul' of undefined
+    at AppBootHook.beforeClose (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:171:33)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at Lifecycle.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:123:19)
+    at Application.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/egg.js:288:42)
+    at beforeExit (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-cluster/lib/app_worker.js:116:25)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/graceful-process/exit.js:16:16
+2020-12-02 17:55:20,339 ERROR 63268 [beforeClose error] TypeError: Cannot read property 'unregisterToConsul' of undefined
+    at AppBootHook.beforeClose (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:171:33)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at Lifecycle.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:123:19)
+    at Application.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/egg.js:288:42)
+    at beforeExit (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-cluster/lib/app_worker.js:116:25)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/graceful-process/exit.js:16:16
+2020-12-02 17:55:37,691 ERROR 63320 [beforeClose error] TypeError: Cannot read property 'unregisterToConsul' of undefined
+    at AppBootHook.beforeClose (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:171:33)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at Lifecycle.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:123:19)
+    at Application.close (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/egg.js:288:42)
+    at beforeExit (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-cluster/lib/app_worker.js:116:25)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/graceful-process/exit.js:16:16
+2020-12-02 18:42:21,619 ERROR 64380 nodejs.ClusterClientNoResponseError: client no response in 1590699ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:556:17)
+    at processTimers (node:internal/timers:499:7)
+name: "ClusterClientNoResponseError"
+pid: 64380
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-02 18:47:58,331 ERROR 66818 [-/127.0.0.1/-/4ms POST /keep_growing/web/login] nodejs.TypeError: options.match is not a function
+    at /Users/gaojianbo/Documents/private/keep_growing_server/app/middleware/httpAuth.js:7:18
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 66818
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-02 19:14:41,854 ERROR 70185 [-/127.0.0.1/-/1ms POST /keep_growing/web/login] nodejs.ReferenceError: ctx is not defined
+    at CollectMerchantService.queryByUsername (/Users/gaojianbo/Documents/private/keep_growing_server/app/service/web.js:9:17)
+    at WebController.login (/Users/gaojianbo/Documents/private/keep_growing_server/app/controller/web.js:31:41)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-compose/index.js:45:18)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-compose/index.js:44:32)
+
+pid: 70185
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-02 19:15:13,472 ERROR 71648 [-/127.0.0.1/-/15ms POST /keep_growing/web/login] nodejs.ReferenceError: ctx is not defined
+    at CollectMerchantService.queryByUsername (/Users/gaojianbo/Documents/private/keep_growing_server/app/service/web.js:9:17)
+    at WebController.login (/Users/gaojianbo/Documents/private/keep_growing_server/app/controller/web.js:31:41)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-compose/index.js:45:18)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-compose/index.js:44:32)
+
+pid: 71648
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-02 19:16:16,351 ERROR 71820 [-/127.0.0.1/-/13ms POST /keep_growing/web/login] nodejs.TypeError: Cannot read property 'findByPk' of undefined
+    at CollectMerchantService.queryByUsername (/Users/gaojianbo/Documents/private/keep_growing_server/app/service/web.js:10:41)
+    at WebController.login (/Users/gaojianbo/Documents/private/keep_growing_server/app/controller/web.js:31:41)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-compose/index.js:45:18)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-compose/index.js:44:32)
+
+pid: 71820
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-02 19:16:35,982 ERROR 71867 [-/127.0.0.1/-/26ms POST /keep_growing/web/login] nodejs.SequelizeDatabaseError: Unknown column 'id' in 'field list'
+    at Query.formatError (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.select (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:938:12)
+    at async Function.findAll (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/model.js:1753:21)
+    at async Function.findOne (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/model.js:1917:12)
+    at async Function.findByPk (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/model.js:1883:12)
+    at async CollectMerchantService.queryByUsername (/Users/gaojianbo/Documents/private/keep_growing_server/app/service/web.js:10:17)
+    at async WebController.login (/Users/gaojianbo/Documents/private/keep_growing_server/app/controller/web.js:31:19)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'id' in 'field list'","sql":"SELECT `id`, `username`, `password`, `create_at` AS `createStamp`, `create_at`, `updatedAt`, `deletedAt` FROM `users` AS `users` WHERE (`users`.`deletedAt` IS NULL AND `users`.`id` = 'weq');"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'id' in 'field list'","sql":"SELECT `id`, `username`, `password`, `create_at` AS `createStamp`, `create_at`, `updatedAt`, `deletedAt` FROM `users` AS `users` WHERE (`users`.`deletedAt` IS NULL AND `users`.`id` = 'weq');"}
+sql: "SELECT `id`, `username`, `password`, `create_at` AS `createStamp`, `create_at`, `updatedAt`, `deletedAt` FROM `users` AS `users` WHERE (`users`.`deletedAt` IS NULL AND `users`.`id` = 'weq');"
+parameters: undefined
+pid: 71867
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-02 19:19:48,950 ERROR 71917 [-/127.0.0.1/-/33ms POST /keep_growing/web/login] nodejs.SequelizeDatabaseError: Unknown column 'create_at' in 'field list'
+    at Query.formatError (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.select (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:938:12)
+    at async Function.findAll (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/model.js:1753:21)
+    at async Function.findOne (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/model.js:1917:12)
+    at async Function.findByPk (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/model.js:1883:12)
+    at async CollectMerchantService.queryByUsername (/Users/gaojianbo/Documents/private/keep_growing_server/app/service/web.js:10:17)
+    at async WebController.login (/Users/gaojianbo/Documents/private/keep_growing_server/app/controller/web.js:31:19)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'create_at' in 'field list'","sql":"SELECT `id`, `username`, `password`, `create_at` AS `createStamp`, `create_at`, `updatedAt`, `deletedAt` FROM `users` AS `users` WHERE (`users`.`deletedAt` IS NULL AND `users`.`id` = 'weq');"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'create_at' in 'field list'","sql":"SELECT `id`, `username`, `password`, `create_at` AS `createStamp`, `create_at`, `updatedAt`, `deletedAt` FROM `users` AS `users` WHERE (`users`.`deletedAt` IS NULL AND `users`.`id` = 'weq');"}
+sql: "SELECT `id`, `username`, `password`, `create_at` AS `createStamp`, `create_at`, `updatedAt`, `deletedAt` FROM `users` AS `users` WHERE (`users`.`deletedAt` IS NULL AND `users`.`id` = 'weq');"
+parameters: undefined
+pid: 71917
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-02 19:21:13,262 ERROR 72300 [-/127.0.0.1/-/29ms POST /keep_growing/web/login] nodejs.SequelizeDatabaseError: Unknown column 'create_at' in 'field list'
+    at Query.formatError (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.select (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:938:12)
+    at async Function.findAll (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/model.js:1753:21)
+    at async Function.findOne (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/model.js:1917:12)
+    at async Function.findByPk (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/model.js:1883:12)
+    at async CollectMerchantService.queryByUsername (/Users/gaojianbo/Documents/private/keep_growing_server/app/service/web.js:10:17)
+    at async WebController.login (/Users/gaojianbo/Documents/private/keep_growing_server/app/controller/web.js:31:19)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'create_at' in 'field list'","sql":"SELECT `id`, `username`, `password`, `create_stamp` AS `createStamp`, `create_at`, `updatedAt`, `deletedAt` FROM `users` AS `users` WHERE (`users`.`deletedAt` IS NULL AND `users`.`id` = 'weq');"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'create_at' in 'field list'","sql":"SELECT `id`, `username`, `password`, `create_stamp` AS `createStamp`, `create_at`, `updatedAt`, `deletedAt` FROM `users` AS `users` WHERE (`users`.`deletedAt` IS NULL AND `users`.`id` = 'weq');"}
+sql: "SELECT `id`, `username`, `password`, `create_stamp` AS `createStamp`, `create_at`, `updatedAt`, `deletedAt` FROM `users` AS `users` WHERE (`users`.`deletedAt` IS NULL AND `users`.`id` = 'weq');"
+parameters: undefined
+pid: 72300
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-02 19:21:45,621 ERROR 72416 [-/127.0.0.1/-/30ms POST /keep_growing/web/login] nodejs.SequelizeDatabaseError: Unknown column 'updatedAt' in 'field list'
+    at Query.formatError (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.select (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:938:12)
+    at async Function.findAll (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/model.js:1753:21)
+    at async Function.findOne (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/model.js:1917:12)
+    at async Function.findByPk (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/model.js:1883:12)
+    at async CollectMerchantService.queryByUsername (/Users/gaojianbo/Documents/private/keep_growing_server/app/service/web.js:10:17)
+    at async WebController.login (/Users/gaojianbo/Documents/private/keep_growing_server/app/controller/web.js:31:19)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'updatedAt' in 'field list'","sql":"SELECT `id`, `username`, `password`, `create_stamp` AS `createStamp`, `create_stamp`, `updatedAt`, `deletedAt` FROM `users` AS `users` WHERE (`users`.`deletedAt` IS NULL AND `users`.`id` = 'weq');"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'updatedAt' in 'field list'","sql":"SELECT `id`, `username`, `password`, `create_stamp` AS `createStamp`, `create_stamp`, `updatedAt`, `deletedAt` FROM `users` AS `users` WHERE (`users`.`deletedAt` IS NULL AND `users`.`id` = 'weq');"}
+sql: "SELECT `id`, `username`, `password`, `create_stamp` AS `createStamp`, `create_stamp`, `updatedAt`, `deletedAt` FROM `users` AS `users` WHERE (`users`.`deletedAt` IS NULL AND `users`.`id` = 'weq');"
+parameters: undefined
+pid: 72416
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-02 19:26:48,451 ERROR 73354 [-/127.0.0.1/-/12ms POST /keep_growing/web/login] nodejs.TypeError: ctx.model.WebUser.find is not a function
+    at CollectMerchantService.queryByUsername (/Users/gaojianbo/Documents/private/keep_growing_server/app/service/web.js:10:41)
+    at WebController.login (/Users/gaojianbo/Documents/private/keep_growing_server/app/controller/web.js:31:41)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-compose/index.js:45:18)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-compose/index.js:44:32)
+
+pid: 73354
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-02 19:27:40,907 ERROR 73450 [-/127.0.0.1/-/11ms POST /keep_growing/web/login] nodejs.Error: The argument passed to findOne must be an options object, use findByPk if you wish to pass a single primary key value
+    at Function.findOne (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/model.js:1900:13)
+    at CollectMerchantService.queryByUsername (/Users/gaojianbo/Documents/private/keep_growing_server/app/service/web.js:10:41)
+    at WebController.login (/Users/gaojianbo/Documents/private/keep_growing_server/app/controller/web.js:31:41)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-compose/index.js:45:18)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/@eggjs/router/lib/router.js:190:18
+
+pid: 73450
+hostname: gaojianbodeMacBook-Pro.local
+

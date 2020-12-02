@@ -1,0 +1,289 @@
+[
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/",
+    "regexp": "/^(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/keep_growing/web/login",
+    "regexp": "/^\\/keep_growing\\/web\\/login(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/nodejs/outside/aliweather",
+    "regexp": "/^\\/nodejs\\/outside\\/aliweather(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/nodejs/weather/cnweather",
+    "regexp": "/^\\/nodejs\\/weather\\/cnweather(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/nodejs/weather/updatecity",
+    "regexp": "/^\\/nodejs\\/weather\\/updatecity(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/nodejs/collectmerchant",
+    "regexp": "/^\\/nodejs\\/collectmerchant(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/nodejs/collectmerchant/create",
+    "regexp": "/^\\/nodejs\\/collectmerchant\\/create(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/nodejs/collectmerchant/destroy",
+    "regexp": "/^\\/nodejs\\/collectmerchant\\/destroy(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/consul/health",
+    "regexp": "/^\\/consul\\/health(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/nodejs/merchant/permission",
+    "regexp": "/^\\/nodejs\\/merchant\\/permission(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/nodejs/merchant/merchantRole",
+    "regexp": "/^\\/nodejs\\/merchant\\/merchantRole(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/nodejs/merchant/merchantRole/create",
+    "regexp": "/^\\/nodejs\\/merchant\\/merchantRole\\/create(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/nodejs/merchant/merchantRole/updateStatus",
+    "regexp": "/^\\/nodejs\\/merchant\\/merchantRole\\/updateStatus(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/nodejs/merchant/merchantOperators",
+    "regexp": "/^\\/nodejs\\/merchant\\/merchantOperators(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/nodejs/merchant/merchantOperators/create",
+    "regexp": "/^\\/nodejs\\/merchant\\/merchantOperators\\/create(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/nodejs/merchant/merchantOperators/update",
+    "regexp": "/^\\/nodejs\\/merchant\\/merchantOperators\\/update(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/nodejs/merchant/merchantOperators/resetPassword",
+    "regexp": "/^\\/nodejs\\/merchant\\/merchantOperators\\/resetPassword(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/nodejs/merchant/merchantPersonRole",
+    "regexp": "/^\\/nodejs\\/merchant\\/merchantPersonRole(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/nodejs/merchant/merchantPersonRole/update",
+    "regexp": "/^\\/nodejs\\/merchant\\/merchantPersonRole\\/update(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/nodejs/merchant/merchantRolePermission",
+    "regexp": "/^\\/nodejs\\/merchant\\/merchantRolePermission(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/nodejs/merchant/merchantRolePermission/queryByUserId",
+    "regexp": "/^\\/nodejs\\/merchant\\/merchantRolePermission\\/queryByUserId(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/nodejs/merchant/merchantRolePermission/update",
+    "regexp": "/^\\/nodejs\\/merchant\\/merchantRolePermission\\/update(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/nodejs/merchant/merchantMenu",
+    "regexp": "/^\\/nodejs\\/merchant\\/merchantMenu(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  }
+]
