@@ -7,6 +7,8 @@ module.exports = app => {
   const { router, controller } = app;
   router.get('/', controller.home.index);
 
+  // 网页注册
+  router.post('/keep_growing/web/registry', controller.web.registry);
   // 网页登录
   router.post('/keep_growing/web/login', controller.web.login);
 

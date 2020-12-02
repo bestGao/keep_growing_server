@@ -77,6 +77,7 @@ module.exports = (appInfo) => {
       match: pathMatching({
         ignore: "/consul/",
         ignore: /\/login$/,
+        ignore: /\/registry$/
       }),
     },
 
