@@ -5,7 +5,11 @@ const pathMatching = require('egg-path-matching')
 const { ip, dockerId } = require('../app/utils/util')
 const localIP = ip.address()
 const localPort = 9000
+const matchingOptions = {
+  ignore: ['/consul/', /\/login$/, /\/registry$/],
+}
 
+const match = pathMatching(matchingOptions)
 /**
  * @param {Egg.EggAppInfo} appInfo app info
  */
@@ -72,14 +76,15 @@ module.exports = (appInfo) => {
     // },
 
     // http 模块的授权中间件
-    middleware: ['httpAuth'],
-    httpAuth: {
-      match: pathMatching({
-        ignore: "/consul/",
-        ignore: /\/login$/,
-        ignore: /\/registry$/
-      }),
+    middleware: ['jwt'],
+    jwt: {
+      enable: true,
+      match
     },
+    // middleware: ['httpAuth'],
+    // httpAuth: {
+    //   match,
+    // },
 
     // 跨域配置
     cors: {

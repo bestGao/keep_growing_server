@@ -1721,3 +1721,2437 @@ hostname: gaojianbodeMacBook-Pro.local
 2020-12-02 19:54:56,641 INFO 77711 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
 2020-12-02 19:59:06,499 INFO 77711 [egg-sequelize](4ms) Executed (default): SELECT `id`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = '32' LIMIT 1;
 2020-12-02 19:59:30,805 INFO 77711 [egg-sequelize](2ms) Executed (default): SELECT `id`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'ew' LIMIT 1;
+2020-12-03 08:25:49,307 INFO 5921 didLoad
+2020-12-03 08:25:49,307 INFO 5921 app.config.env: local
+2020-12-03 08:25:49,320 INFO 5921 willReady
+2020-12-03 08:25:49,320 INFO 5921 didReady
+2020-12-03 08:25:49,412 INFO 5921 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 08:25:49,438 INFO 5921 serverDidReady
+2020-12-03 08:25:49,470 INFO 5921 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 08:30:55,351 INFO 5921 [-/127.0.0.1/-/12ms POST /keep_growing/web/login] httpAuth get Authorization: 
+2020-12-03 08:30:55,352 ERROR 5921 [-/127.0.0.1/-/13ms POST /keep_growing/web/login] [httpAuth validate token] TypeError: Cannot read property 'get' of undefined
+    at /Users/gaojianbo/Documents/private/keep_growing_server/app/middleware/httpAuth.js:18:43
+    at fn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+2020-12-03 08:31:53,591 INFO 5921 [-/127.0.0.1/-/0ms POST /keep_growing/web/login] httpAuth get Authorization: 
+2020-12-03 08:31:53,592 ERROR 5921 [-/127.0.0.1/-/0ms POST /keep_growing/web/login] [httpAuth validate token] TypeError: Cannot read property 'get' of undefined
+    at /Users/gaojianbo/Documents/private/keep_growing_server/app/middleware/httpAuth.js:18:43
+    at fn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+2020-12-03 08:34:15,447 INFO 5921 [-/127.0.0.1/-/0ms POST /keep_growing/web/login] httpAuth get Authorization: 
+2020-12-03 08:34:15,448 ERROR 5921 [-/127.0.0.1/-/1ms POST /keep_growing/web/login] [httpAuth validate token] TypeError: Cannot read property 'get' of undefined
+    at /Users/gaojianbo/Documents/private/keep_growing_server/app/middleware/httpAuth.js:18:43
+    at fn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+2020-12-03 08:34:44,333 INFO 5921 [-/127.0.0.1/-/0ms POST /keep_growing/web/login] httpAuth get Authorization: 
+2020-12-03 08:34:44,333 ERROR 5921 [-/127.0.0.1/-/0ms POST /keep_growing/web/login] [httpAuth validate token] TypeError: Cannot read property 'get' of undefined
+    at /Users/gaojianbo/Documents/private/keep_growing_server/app/middleware/httpAuth.js:18:43
+    at fn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+2020-12-03 08:35:36,662 INFO 6865 didLoad
+2020-12-03 08:35:36,662 INFO 6865 app.config.env: local
+2020-12-03 08:35:36,670 INFO 6865 willReady
+2020-12-03 08:35:36,671 INFO 6865 didReady
+2020-12-03 08:35:36,752 INFO 6865 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 08:35:36,774 INFO 6865 serverDidReady
+2020-12-03 08:35:36,802 INFO 6865 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 08:35:38,501 INFO 6865 [-/127.0.0.1/-/9ms POST /keep_growing/web/login] httpAuth get Authorization: 
+2020-12-03 08:35:38,502 ERROR 6865 [-/127.0.0.1/-/9ms POST /keep_growing/web/login] [httpAuth validate token] TypeError: Cannot read property 'get' of undefined
+    at /Users/gaojianbo/Documents/private/keep_growing_server/app/middleware/httpAuth.js:18:43
+    at fn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+2020-12-03 08:35:50,411 INFO 6865 [-/127.0.0.1/-/1ms POST /keep_growing/web/login] httpAuth get Authorization: 
+2020-12-03 08:35:50,412 ERROR 6865 [-/127.0.0.1/-/2ms POST /keep_growing/web/login] [httpAuth validate token] TypeError: Cannot read property 'get' of undefined
+    at /Users/gaojianbo/Documents/private/keep_growing_server/app/middleware/httpAuth.js:18:43
+    at fn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+2020-12-03 08:36:18,790 INFO 6966 didLoad
+2020-12-03 08:36:18,791 INFO 6966 app.config.env: local
+2020-12-03 08:36:18,804 INFO 6966 willReady
+2020-12-03 08:36:18,804 INFO 6966 didReady
+2020-12-03 08:36:18,892 INFO 6966 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 08:36:18,919 INFO 6966 serverDidReady
+2020-12-03 08:36:18,950 INFO 6966 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 08:36:55,150 INFO 6966 [-/127.0.0.1/-/12ms POST /keep_growing/web/login] httpAuth get Authorization: 
+2020-12-03 08:36:55,151 ERROR 6966 [-/127.0.0.1/-/13ms POST /keep_growing/web/login] [httpAuth validate token] TypeError: Cannot read property 'get' of undefined
+    at /Users/gaojianbo/Documents/private/keep_growing_server/app/middleware/httpAuth.js:18:43
+    at fn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+2020-12-03 08:38:27,022 INFO 7162 didLoad
+2020-12-03 08:38:27,022 INFO 7162 app.config.env: local
+2020-12-03 08:38:27,032 INFO 7162 willReady
+2020-12-03 08:38:27,032 INFO 7162 didReady
+2020-12-03 08:38:27,154 INFO 7162 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 08:38:27,180 INFO 7162 serverDidReady
+2020-12-03 08:38:27,213 INFO 7162 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 08:38:34,100 INFO 7162 [-/127.0.0.1/-/13ms POST /keep_growing/web/login] httpAuth get Authorization: 
+2020-12-03 08:38:34,101 ERROR 7162 [-/127.0.0.1/-/14ms POST /keep_growing/web/login] [httpAuth validate token] TypeError: Cannot read property 'get' of undefined
+    at /Users/gaojianbo/Documents/private/keep_growing_server/app/middleware/httpAuth.js:18:43
+    at fn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+2020-12-03 08:43:17,341 INFO 7918 didLoad
+2020-12-03 08:43:17,342 INFO 7918 app.config.env: local
+2020-12-03 08:43:17,350 INFO 7918 willReady
+2020-12-03 08:43:17,350 INFO 7918 didReady
+2020-12-03 08:43:17,478 INFO 7918 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 08:43:17,503 INFO 7918 serverDidReady
+2020-12-03 08:43:17,543 INFO 7918 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 08:45:46,654 INFO 8414 didLoad
+2020-12-03 08:45:46,655 INFO 8414 app.config.env: local
+2020-12-03 08:45:46,667 INFO 8414 willReady
+2020-12-03 08:45:46,667 INFO 8414 didReady
+2020-12-03 08:45:46,750 INFO 8414 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 08:45:46,774 INFO 8414 serverDidReady
+2020-12-03 08:45:46,805 INFO 8414 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 08:46:25,964 INFO 8512 didLoad
+2020-12-03 08:46:25,965 INFO 8512 app.config.env: local
+2020-12-03 08:46:25,974 INFO 8512 willReady
+2020-12-03 08:46:25,975 INFO 8512 didReady
+2020-12-03 08:46:26,062 INFO 8512 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 08:46:26,087 INFO 8512 serverDidReady
+2020-12-03 08:46:26,119 INFO 8512 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 08:47:42,280 INFO 8739 didLoad
+2020-12-03 08:47:42,281 INFO 8739 app.config.env: local
+2020-12-03 08:47:42,292 INFO 8739 willReady
+2020-12-03 08:47:42,293 INFO 8739 didReady
+2020-12-03 08:47:42,378 INFO 8739 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 08:47:42,404 INFO 8739 serverDidReady
+2020-12-03 08:47:42,434 INFO 8739 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 08:47:54,785 INFO 8739 [-/127.0.0.1/-/13ms POST /keep_growing/web/login] httpAuth get Authorization: 
+2020-12-03 08:47:54,786 ERROR 8739 [-/127.0.0.1/-/14ms POST /keep_growing/web/login] [httpAuth validate token] TypeError: Cannot read property 'get' of undefined
+    at /Users/gaojianbo/Documents/private/keep_growing_server/app/middleware/httpAuth.js:18:43
+    at fn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+2020-12-03 08:48:42,268 INFO 8890 didLoad
+2020-12-03 08:48:42,268 INFO 8890 app.config.env: local
+2020-12-03 08:48:42,279 INFO 8890 willReady
+2020-12-03 08:48:42,280 INFO 8890 didReady
+2020-12-03 08:48:42,372 INFO 8890 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 08:48:42,397 INFO 8890 serverDidReady
+2020-12-03 08:48:42,431 INFO 8890 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 08:48:44,283 INFO 8890 [-/127.0.0.1/-/12ms POST /keep_growing/web/login] httpAuth get Authorization: 
+2020-12-03 08:48:44,284 ERROR 8890 [-/127.0.0.1/-/13ms POST /keep_growing/web/login] [httpAuth validate token] TypeError: Cannot read property 'get' of undefined
+    at /Users/gaojianbo/Documents/private/keep_growing_server/app/middleware/httpAuth.js:18:43
+    at fn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+2020-12-03 08:48:52,832 INFO 8890 [-/127.0.0.1/-/1ms POST /keep_growing/web/login] httpAuth get Authorization: 
+2020-12-03 08:48:52,832 ERROR 8890 [-/127.0.0.1/-/1ms POST /keep_growing/web/login] [httpAuth validate token] TypeError: Cannot read property 'get' of undefined
+    at /Users/gaojianbo/Documents/private/keep_growing_server/app/middleware/httpAuth.js:18:43
+    at fn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+2020-12-03 08:49:13,298 INFO 8966 didLoad
+2020-12-03 08:49:13,299 INFO 8966 app.config.env: local
+2020-12-03 08:49:13,307 INFO 8966 willReady
+2020-12-03 08:49:13,308 INFO 8966 didReady
+2020-12-03 08:49:13,412 INFO 8966 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 08:49:13,434 INFO 8966 serverDidReady
+2020-12-03 08:49:13,468 INFO 8966 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 08:49:16,319 INFO 8999 didLoad
+2020-12-03 08:49:16,319 INFO 8999 app.config.env: local
+2020-12-03 08:49:16,329 INFO 8999 willReady
+2020-12-03 08:49:16,329 INFO 8999 didReady
+2020-12-03 08:49:16,418 INFO 8999 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 08:49:16,443 INFO 8999 serverDidReady
+2020-12-03 08:49:16,478 INFO 8999 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 08:51:31,645 INFO 9190 didLoad
+2020-12-03 08:51:31,645 INFO 9190 app.config.env: local
+2020-12-03 08:51:31,656 INFO 9190 willReady
+2020-12-03 08:51:31,656 INFO 9190 didReady
+2020-12-03 08:51:31,783 INFO 9190 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 08:51:31,809 INFO 9190 serverDidReady
+2020-12-03 08:51:31,849 INFO 9190 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 08:52:12,073 INFO 9291 didLoad
+2020-12-03 08:52:12,073 INFO 9291 app.config.env: local
+2020-12-03 08:52:12,082 INFO 9291 willReady
+2020-12-03 08:52:12,082 INFO 9291 didReady
+2020-12-03 08:52:12,161 INFO 9291 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 08:52:12,182 INFO 9291 serverDidReady
+2020-12-03 08:52:12,210 INFO 9291 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 08:52:16,875 INFO 9291 [-/127.0.0.1/-/12ms POST /keep_growing/web/login] httpAuth get Authorization: 
+2020-12-03 08:52:16,876 ERROR 9291 [-/127.0.0.1/-/12ms POST /keep_growing/web/login] [httpAuth validate token] TypeError: Cannot read property 'get' of undefined
+    at /Users/gaojianbo/Documents/private/keep_growing_server/app/middleware/httpAuth.js:18:43
+    at fn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+2020-12-03 08:52:17,347 INFO 9291 [-/127.0.0.1/-/1ms POST /keep_growing/web/login] httpAuth get Authorization: 
+2020-12-03 08:52:17,347 ERROR 9291 [-/127.0.0.1/-/1ms POST /keep_growing/web/login] [httpAuth validate token] TypeError: Cannot read property 'get' of undefined
+    at /Users/gaojianbo/Documents/private/keep_growing_server/app/middleware/httpAuth.js:18:43
+    at fn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+2020-12-03 08:52:41,496 INFO 9335 didLoad
+2020-12-03 08:52:41,496 INFO 9335 app.config.env: local
+2020-12-03 08:52:41,505 INFO 9335 willReady
+2020-12-03 08:52:41,505 INFO 9335 didReady
+2020-12-03 08:52:41,578 INFO 9335 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 08:52:41,600 INFO 9335 serverDidReady
+2020-12-03 08:52:41,631 INFO 9335 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 08:52:43,188 INFO 9343 didLoad
+2020-12-03 08:52:43,189 INFO 9343 app.config.env: local
+2020-12-03 08:52:43,199 INFO 9343 willReady
+2020-12-03 08:52:43,199 INFO 9343 didReady
+2020-12-03 08:52:43,274 INFO 9343 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 08:52:43,296 INFO 9343 serverDidReady
+2020-12-03 08:52:43,329 INFO 9343 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 08:52:45,568 INFO 9359 didLoad
+2020-12-03 08:52:45,568 INFO 9359 app.config.env: local
+2020-12-03 08:52:45,576 INFO 9359 willReady
+2020-12-03 08:52:45,576 INFO 9359 didReady
+2020-12-03 08:52:45,658 INFO 9359 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 08:52:45,680 INFO 9359 serverDidReady
+2020-12-03 08:52:45,711 INFO 9359 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 08:54:14,632 INFO 9465 didLoad
+2020-12-03 08:54:14,632 INFO 9465 app.config.env: local
+2020-12-03 08:54:14,641 INFO 9465 willReady
+2020-12-03 08:54:14,642 INFO 9465 didReady
+2020-12-03 08:54:14,763 INFO 9465 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 08:54:14,787 INFO 9465 serverDidReady
+2020-12-03 08:54:14,824 INFO 9465 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 08:54:24,409 INFO 9465 [egg-sequelize](4ms) Executed (default): SELECT `id`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = '32' LIMIT 1;
+2020-12-03 08:54:39,582 INFO 9465 [egg-sequelize](3ms) Executed (891c394f-5729-4240-8d89-ff81524c73ef): START TRANSACTION;
+2020-12-03 08:54:39,587 INFO 9465 [egg-sequelize](3ms) Executed (891c394f-5729-4240-8d89-ff81524c73ef): SELECT `id`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = '32' LIMIT 1;
+2020-12-03 08:54:39,603 INFO 9465 [egg-sequelize](1ms) Executed (891c394f-5729-4240-8d89-ff81524c73ef): COMMIT;
+2020-12-03 08:54:39,615 ERROR 9465 [-/127.0.0.1/-/42ms POST /keep_growing/web/registry] nodejs.SequelizeDatabaseError: Field 'telephone' doesn't have a default value
+    at Query.formatError (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/dialects/mysql/query.js:239:16)
+    at Query.run (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/dialects/mysql/query.js:54:18)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/sequelize.js:619:16
+    at async MySQLQueryInterface.insert (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/dialects/abstract/query-interface.js:734:21)
+    at async model.save (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/model.js:3954:35)
+    at async Function.create (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/model.js:2207:12)
+    at async Function.findOrCreate (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/model.js:2319:25)
+    at async WebService.createUser (/Users/gaojianbo/Documents/private/keep_growing_server/app/service/web.js:17:17)
+    at async WebController.registry (/Users/gaojianbo/Documents/private/keep_growing_server/app/controller/web.js:98:19)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'telephone' doesn't have a default value","sql":"INSERT INTO `users` (`id`,`username`,`password`,`create_stamp`,`modify_stamp`) VALUES (DEFAULT,?,?,?,?);","parameters":["32","32","2020-12-03 08:54:39","2020-12-03 08:54:39"]}
+original: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlState":"HY000","sqlMessage":"Field 'telephone' doesn't have a default value","sql":"INSERT INTO `users` (`id`,`username`,`password`,`create_stamp`,`modify_stamp`) VALUES (DEFAULT,?,?,?,?);","parameters":["32","32","2020-12-03 08:54:39","2020-12-03 08:54:39"]}
+sql: "INSERT INTO `users` (`id`,`username`,`password`,`create_stamp`,`modify_stamp`) VALUES (DEFAULT,?,?,?,?);"
+parameters: ["32","32","2020-12-03 08:54:39","2020-12-03 08:54:39"]
+pid: 9465
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 08:56:00,577 INFO 9642 didLoad
+2020-12-03 08:56:00,578 INFO 9642 app.config.env: local
+2020-12-03 08:56:00,586 INFO 9642 willReady
+2020-12-03 08:56:00,587 INFO 9642 didReady
+2020-12-03 08:56:00,701 INFO 9642 nodejs.SyntaxError: [egg-core] load file: /Users/gaojianbo/Documents/private/keep_growing_server/app/model/webUser.js, error: Unexpected identifier
+      username: {
+      ^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (node:internal/modules/cjs/loader:1018:16)
+    at Module._compile (node:internal/modules/cjs/loader:1066:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1131:10)
+    at Module.load (node:internal/modules/cjs/loader:967:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:807:14)
+    at Module.require (node:internal/modules/cjs/loader:991:19)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.loadFile (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+
+pid: 9642
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 08:56:00,709 INFO 9642 serverDidReady
+2020-12-03 08:56:05,109 INFO 9664 didLoad
+2020-12-03 08:56:05,110 INFO 9664 app.config.env: local
+2020-12-03 08:56:05,119 INFO 9664 willReady
+2020-12-03 08:56:05,119 INFO 9664 didReady
+2020-12-03 08:56:05,194 INFO 9664 nodejs.Error: Unrecognized datatype for attribute "users.telephone"
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/model.js:1001:15
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/lodash/lodash.js:13427:38
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/lodash/lodash.js:4925:15
+    at baseForOwn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/lodash/lodash.js:2990:24)
+    at Function.mapValues (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/lodash/lodash.js:13426:7)
+    at Function.init (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/model.js:997:28)
+    at Sequelize.define (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/sequelize/lib/sequelize.js:440:11)
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/app/model/webUser.js:10:30)
+    at initializer (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:111:18)
+    at getExports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:202:15)
+
+pid: 9664
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 08:56:05,204 INFO 9664 serverDidReady
+2020-12-03 08:56:07,776 INFO 9671 didLoad
+2020-12-03 08:56:07,777 INFO 9671 app.config.env: local
+2020-12-03 08:56:07,787 INFO 9671 willReady
+2020-12-03 08:56:07,788 INFO 9671 didReady
+2020-12-03 08:56:07,867 INFO 9671 nodejs.ReferenceError: type is not defined
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/app/model/webUser.js:20:9)
+    at initializer (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:111:18)
+    at getExports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:202:15)
+    at FileLoader.parse (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadDatabase (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:101:16)
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:32:20)
+    at AppBootHook.initSequelize (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:151:7)
+    at AppBootHook.didReady (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:132:16)
+
+pid: 9671
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 08:56:07,887 INFO 9671 serverDidReady
+2020-12-03 08:56:09,499 INFO 9689 didLoad
+2020-12-03 08:56:09,499 INFO 9689 app.config.env: local
+2020-12-03 08:56:09,509 INFO 9689 willReady
+2020-12-03 08:56:09,509 INFO 9689 didReady
+2020-12-03 08:56:09,589 INFO 9689 nodejs.ReferenceError: str is not defined
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/app/model/webUser.js:20:15)
+    at initializer (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:111:18)
+    at getExports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:202:15)
+    at FileLoader.parse (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadDatabase (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:101:16)
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:32:20)
+    at AppBootHook.initSequelize (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:151:7)
+    at AppBootHook.didReady (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:132:16)
+
+pid: 9689
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 08:56:09,623 INFO 9689 serverDidReady
+2020-12-03 08:56:11,501 INFO 9696 didLoad
+2020-12-03 08:56:11,502 INFO 9696 app.config.env: local
+2020-12-03 08:56:11,510 INFO 9696 willReady
+2020-12-03 08:56:11,510 INFO 9696 didReady
+2020-12-03 08:56:11,594 INFO 9696 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 08:56:11,616 INFO 9696 serverDidReady
+2020-12-03 08:56:11,656 INFO 9696 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 08:56:14,147 INFO 9711 didLoad
+2020-12-03 08:56:14,147 INFO 9711 app.config.env: local
+2020-12-03 08:56:14,155 INFO 9711 willReady
+2020-12-03 08:56:14,156 INFO 9711 didReady
+2020-12-03 08:56:14,241 INFO 9711 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 08:56:14,267 INFO 9711 serverDidReady
+2020-12-03 08:56:14,327 INFO 9711 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 08:56:20,795 INFO 9728 didLoad
+2020-12-03 08:56:20,795 INFO 9728 app.config.env: local
+2020-12-03 08:56:20,804 INFO 9728 willReady
+2020-12-03 08:56:20,805 INFO 9728 didReady
+2020-12-03 08:56:20,893 INFO 9728 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 08:56:20,920 INFO 9728 serverDidReady
+2020-12-03 08:56:20,959 INFO 9728 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 08:56:26,119 INFO 9744 didLoad
+2020-12-03 08:56:26,119 INFO 9744 app.config.env: local
+2020-12-03 08:56:26,127 INFO 9744 willReady
+2020-12-03 08:56:26,127 INFO 9744 didReady
+2020-12-03 08:56:26,200 INFO 9744 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 08:56:26,223 INFO 9744 serverDidReady
+2020-12-03 08:56:26,253 INFO 9744 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 08:56:28,819 INFO 9759 didLoad
+2020-12-03 08:56:28,819 INFO 9759 app.config.env: local
+2020-12-03 08:56:28,828 INFO 9759 willReady
+2020-12-03 08:56:28,829 INFO 9759 didReady
+2020-12-03 08:56:28,914 INFO 9759 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 08:56:28,939 INFO 9759 serverDidReady
+2020-12-03 08:56:28,971 INFO 9759 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 08:56:31,136 INFO 9765 didLoad
+2020-12-03 08:56:31,137 INFO 9765 app.config.env: local
+2020-12-03 08:56:31,145 INFO 9765 willReady
+2020-12-03 08:56:31,145 INFO 9765 didReady
+2020-12-03 08:56:31,219 INFO 9765 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 08:56:31,242 INFO 9765 serverDidReady
+2020-12-03 08:56:31,274 INFO 9765 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 08:59:48,167 INFO 9765 [egg-sequelize](3ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = '32' LIMIT 1;
+2020-12-03 09:00:21,633 INFO 9765 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = '23' LIMIT 1;
+2020-12-03 09:00:59,872 INFO 9765 [egg-sequelize](1ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = '23' LIMIT 1;
+2020-12-03 09:03:49,899 INFO 9765 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = '23' LIMIT 1;
+2020-12-03 09:03:56,111 INFO 9765 [egg-sequelize](2ms) Executed (0ac340a3-3be9-4558-8687-a9a990829451): START TRANSACTION;
+2020-12-03 09:03:56,114 INFO 9765 [egg-sequelize](2ms) Executed (0ac340a3-3be9-4558-8687-a9a990829451): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = '23' LIMIT 1;
+2020-12-03 09:03:56,126 INFO 9765 [egg-sequelize](6ms) Executed (0ac340a3-3be9-4558-8687-a9a990829451): INSERT INTO `users` (`id`,`telephone`,`username`,`password`,`create_stamp`,`modify_stamp`) VALUES (DEFAULT,?,?,?,?,?);
+2020-12-03 09:03:56,132 INFO 9765 [egg-sequelize](5ms) Executed (0ac340a3-3be9-4558-8687-a9a990829451): COMMIT;
+2020-12-03 09:03:56,133 INFO 9765 [-/127.0.0.1/-/25ms POST /keep_growing/web/registry] web controller registry方法结果 [
+  users {
+    dataValues: {
+      id: 1,
+      password: '32',
+      telephone: '23',
+      username: '23',
+      modifyStamp: 2020-12-03T01:03:56.116Z,
+      createStamp: 2020-12-03T01:03:56.116Z
+    },
+    _previousDataValues: {
+      password: '32',
+      telephone: '23',
+      username: '23',
+      id: 1,
+      createStamp: 2020-12-03T01:03:56.116Z,
+      modifyStamp: 2020-12-03T01:03:56.116Z
+    },
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: true,
+      _schema: null,
+      _schemaDelimiter: '',
+      attributes: undefined,
+      include: undefined,
+      raw: undefined,
+      silent: undefined
+    },
+    isNewRecord: false
+  },
+  true
+]
+2020-12-03 09:05:20,312 INFO 10620 didLoad
+2020-12-03 09:05:20,313 INFO 10620 app.config.env: local
+2020-12-03 09:05:20,322 INFO 10620 willReady
+2020-12-03 09:05:20,323 INFO 10620 didReady
+2020-12-03 09:05:20,450 INFO 10620 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 09:05:20,474 INFO 10620 serverDidReady
+2020-12-03 09:05:20,514 INFO 10620 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 09:05:26,946 INFO 10651 didLoad
+2020-12-03 09:05:26,947 INFO 10651 app.config.env: local
+2020-12-03 09:05:26,956 INFO 10651 willReady
+2020-12-03 09:05:26,956 INFO 10651 didReady
+2020-12-03 09:05:27,081 INFO 10651 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 09:05:27,106 INFO 10651 serverDidReady
+2020-12-03 09:05:27,141 INFO 10651 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 09:05:30,958 INFO 10659 didLoad
+2020-12-03 09:05:30,959 INFO 10659 app.config.env: local
+2020-12-03 09:05:30,967 INFO 10659 willReady
+2020-12-03 09:05:30,968 INFO 10659 didReady
+2020-12-03 09:05:31,049 INFO 10659 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 09:05:31,073 INFO 10659 serverDidReady
+2020-12-03 09:05:31,105 INFO 10659 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 09:05:39,208 INFO 10691 didLoad
+2020-12-03 09:05:39,209 INFO 10691 app.config.env: local
+2020-12-03 09:05:39,217 INFO 10691 willReady
+2020-12-03 09:05:39,217 INFO 10691 didReady
+2020-12-03 09:05:39,291 INFO 10691 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 09:05:39,324 INFO 10691 serverDidReady
+2020-12-03 09:05:39,350 INFO 10691 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 09:05:40,097 INFO 10698 didLoad
+2020-12-03 09:05:40,098 INFO 10698 app.config.env: local
+2020-12-03 09:05:40,101 INFO 10698 serverDidReady
+2020-12-03 09:05:40,107 INFO 10698 willReady
+2020-12-03 09:05:40,108 INFO 10698 didReady
+2020-12-03 09:05:40,192 INFO 10698 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 09:05:40,247 INFO 10698 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 09:06:21,475 INFO 10698 [egg-sequelize](3ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'sd' LIMIT 1;
+2020-12-03 09:06:30,089 INFO 10698 [egg-sequelize](1ms) Executed (e5401185-9c21-422b-b1e5-c8431cc85cb3): START TRANSACTION;
+2020-12-03 09:06:30,093 INFO 10698 [egg-sequelize](3ms) Executed (e5401185-9c21-422b-b1e5-c8431cc85cb3): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'sd' LIMIT 1;
+2020-12-03 09:06:30,106 INFO 10698 [egg-sequelize](5ms) Executed (e5401185-9c21-422b-b1e5-c8431cc85cb3): INSERT INTO `users` (`id`,`telephone`,`username`,`password`,`create_stamp`,`modify_stamp`) VALUES (DEFAULT,?,?,?,?,?);
+2020-12-03 09:06:30,114 INFO 10698 [egg-sequelize](7ms) Executed (e5401185-9c21-422b-b1e5-c8431cc85cb3): COMMIT;
+2020-12-03 09:06:30,115 INFO 10698 [-/127.0.0.1/-/30ms POST /keep_growing/web/registry] web controller registry方法结果 [
+  users {
+    dataValues: {
+      id: 2,
+      password: 'ds',
+      telephone: '18368192710',
+      username: 'sd',
+      modifyStamp: 2020-12-03T01:06:30.096Z,
+      createStamp: 2020-12-03T01:06:30.096Z
+    },
+    _previousDataValues: {
+      password: 'ds',
+      telephone: '18368192710',
+      username: 'sd',
+      id: 2,
+      createStamp: 2020-12-03T01:06:30.096Z,
+      modifyStamp: 2020-12-03T01:06:30.096Z
+    },
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: true,
+      _schema: null,
+      _schemaDelimiter: '',
+      attributes: undefined,
+      include: undefined,
+      raw: undefined,
+      silent: undefined
+    },
+    isNewRecord: false
+  },
+  true
+]
+2020-12-03 09:08:04,443 INFO 10921 didLoad
+2020-12-03 09:08:04,443 INFO 10921 app.config.env: local
+2020-12-03 09:08:04,451 INFO 10921 willReady
+2020-12-03 09:08:04,451 INFO 10921 didReady
+2020-12-03 09:08:04,568 INFO 10921 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 09:08:04,590 INFO 10921 serverDidReady
+2020-12-03 09:08:04,621 INFO 10921 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 09:08:07,960 INFO 10940 didLoad
+2020-12-03 09:08:07,961 INFO 10940 app.config.env: local
+2020-12-03 09:08:07,970 INFO 10940 willReady
+2020-12-03 09:08:07,971 INFO 10940 didReady
+2020-12-03 09:08:08,057 INFO 10940 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 09:08:08,083 INFO 10940 serverDidReady
+2020-12-03 09:08:08,120 INFO 10940 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 09:10:12,537 INFO 11214 didLoad
+2020-12-03 09:10:12,537 INFO 11214 app.config.env: local
+2020-12-03 09:10:12,547 INFO 11214 willReady
+2020-12-03 09:10:12,547 INFO 11214 didReady
+2020-12-03 09:10:12,674 INFO 11214 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 09:10:12,701 INFO 11214 serverDidReady
+2020-12-03 09:10:12,737 INFO 11214 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 09:10:34,987 INFO 11256 didLoad
+2020-12-03 09:10:34,988 INFO 11256 app.config.env: local
+2020-12-03 09:10:34,997 INFO 11256 willReady
+2020-12-03 09:10:34,997 INFO 11256 didReady
+2020-12-03 09:10:35,108 INFO 11256 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 09:10:35,131 INFO 11256 serverDidReady
+2020-12-03 09:10:35,162 INFO 11256 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 09:11:13,996 INFO 11256 [-/127.0.0.1/-/14ms POST /keep_growing/web/login] httpAuth get Authorization: 
+2020-12-03 09:11:13,997 ERROR 11256 [-/127.0.0.1/-/14ms POST /keep_growing/web/login] [httpAuth validate token] TypeError: Cannot read property 'get' of undefined
+    at /Users/gaojianbo/Documents/private/keep_growing_server/app/middleware/httpAuth.js:18:43
+    at fn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/mixin/middleware.js:112:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+2020-12-03 09:13:33,112 INFO 11497 didLoad
+2020-12-03 09:13:33,112 INFO 11497 app.config.env: local
+2020-12-03 09:13:33,121 INFO 11497 willReady
+2020-12-03 09:13:33,121 INFO 11497 didReady
+2020-12-03 09:13:33,237 INFO 11497 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 09:13:33,258 INFO 11497 serverDidReady
+2020-12-03 09:13:33,288 INFO 11497 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 09:13:34,563 INFO 11514 didLoad
+2020-12-03 09:13:34,563 INFO 11514 app.config.env: local
+2020-12-03 09:13:34,572 INFO 11514 willReady
+2020-12-03 09:13:34,572 INFO 11514 didReady
+2020-12-03 09:13:34,645 INFO 11514 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 09:13:34,666 INFO 11514 serverDidReady
+2020-12-03 09:13:34,694 INFO 11514 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 09:13:44,002 INFO 11514 [egg-sequelize](3ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = '434' LIMIT 1;
+2020-12-03 09:13:55,828 INFO 11582 didLoad
+2020-12-03 09:13:55,828 INFO 11582 app.config.env: local
+2020-12-03 09:13:55,836 INFO 11582 willReady
+2020-12-03 09:13:55,837 INFO 11582 didReady
+2020-12-03 09:13:55,929 INFO 11582 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 09:13:55,951 INFO 11582 serverDidReady
+2020-12-03 09:13:55,987 INFO 11582 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 09:14:01,687 INFO 11601 didLoad
+2020-12-03 09:14:01,688 INFO 11601 app.config.env: local
+2020-12-03 09:14:01,701 INFO 11601 willReady
+2020-12-03 09:14:01,701 INFO 11601 didReady
+2020-12-03 09:14:01,808 INFO 11601 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 09:14:01,834 INFO 11601 serverDidReady
+2020-12-03 09:14:01,872 INFO 11601 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 09:14:13,226 INFO 11601 [egg-sequelize](3ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = '2323' LIMIT 1;
+2020-12-03 09:14:27,645 INFO 11643 didLoad
+2020-12-03 09:14:27,646 INFO 11643 app.config.env: local
+2020-12-03 09:14:27,653 INFO 11643 willReady
+2020-12-03 09:14:27,654 INFO 11643 didReady
+2020-12-03 09:14:27,728 INFO 11643 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 09:14:27,750 INFO 11643 serverDidReady
+2020-12-03 09:14:27,788 INFO 11643 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 09:14:55,684 INFO 11689 didLoad
+2020-12-03 09:14:55,685 INFO 11689 app.config.env: local
+2020-12-03 09:14:55,693 INFO 11689 willReady
+2020-12-03 09:14:55,694 INFO 11689 didReady
+2020-12-03 09:14:55,777 INFO 11689 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 09:14:55,800 INFO 11689 serverDidReady
+2020-12-03 09:14:55,830 INFO 11689 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 09:15:02,093 INFO 11707 didLoad
+2020-12-03 09:15:02,093 INFO 11707 app.config.env: local
+2020-12-03 09:15:02,102 INFO 11707 willReady
+2020-12-03 09:15:02,103 INFO 11707 didReady
+2020-12-03 09:15:02,179 INFO 11707 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 09:15:02,204 INFO 11707 serverDidReady
+2020-12-03 09:15:02,237 INFO 11707 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 09:15:15,816 INFO 11733 didLoad
+2020-12-03 09:15:15,817 INFO 11733 app.config.env: local
+2020-12-03 09:15:15,827 INFO 11733 willReady
+2020-12-03 09:15:15,827 INFO 11733 didReady
+2020-12-03 09:15:15,915 INFO 11733 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 09:15:15,941 INFO 11733 serverDidReady
+2020-12-03 09:15:15,973 INFO 11733 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 09:15:19,835 INFO 11749 didLoad
+2020-12-03 09:15:19,835 INFO 11749 app.config.env: local
+2020-12-03 09:15:19,845 INFO 11749 willReady
+2020-12-03 09:15:19,846 INFO 11749 didReady
+2020-12-03 09:15:19,932 INFO 11749 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 09:15:19,964 INFO 11749 serverDidReady
+2020-12-03 09:15:19,992 INFO 11749 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 09:15:20,752 INFO 11758 didLoad
+2020-12-03 09:15:20,752 INFO 11758 app.config.env: local
+2020-12-03 09:15:20,756 INFO 11758 serverDidReady
+2020-12-03 09:15:20,761 INFO 11758 willReady
+2020-12-03 09:15:20,761 INFO 11758 didReady
+2020-12-03 09:15:20,846 INFO 11758 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 09:15:20,906 INFO 11758 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 09:26:15,873 INFO 11758 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = '21' LIMIT 1;
+2020-12-03 09:26:23,655 INFO 11758 [egg-sequelize](2ms) Executed (b2b01882-d7bf-493b-b06d-586e761df52d): START TRANSACTION;
+2020-12-03 09:26:23,658 INFO 11758 [egg-sequelize](2ms) Executed (b2b01882-d7bf-493b-b06d-586e761df52d): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = '21' LIMIT 1;
+2020-12-03 09:26:23,671 INFO 11758 [egg-sequelize](6ms) Executed (b2b01882-d7bf-493b-b06d-586e761df52d): INSERT INTO `users` (`id`,`telephone`,`username`,`password`,`create_stamp`,`modify_stamp`) VALUES (DEFAULT,?,?,?,?,?);
+2020-12-03 09:26:23,677 INFO 11758 [egg-sequelize](5ms) Executed (b2b01882-d7bf-493b-b06d-586e761df52d): COMMIT;
+2020-12-03 09:26:23,678 INFO 11758 [-/127.0.0.1/-/27ms POST /keep_growing/web/registry] web controller registry方法结果 [
+  users {
+    dataValues: {
+      id: 3,
+      password: '212',
+      telephone: '1845',
+      username: '21',
+      modifyStamp: 2020-12-03T01:26:23.660Z,
+      createStamp: 2020-12-03T01:26:23.660Z
+    },
+    _previousDataValues: {
+      password: '212',
+      telephone: '1845',
+      username: '21',
+      id: 3,
+      createStamp: 2020-12-03T01:26:23.660Z,
+      modifyStamp: 2020-12-03T01:26:23.660Z
+    },
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: true,
+      _schema: null,
+      _schemaDelimiter: '',
+      attributes: undefined,
+      include: undefined,
+      raw: undefined,
+      silent: undefined
+    },
+    isNewRecord: false
+  },
+  true
+]
+2020-12-03 09:31:25,332 INFO 11758 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = '32' LIMIT 1;
+2020-12-03 09:31:29,910 INFO 11758 [egg-sequelize](2ms) Executed (bcfb36ad-e18d-4774-b151-b1548abb2e58): START TRANSACTION;
+2020-12-03 09:31:29,913 INFO 11758 [egg-sequelize](2ms) Executed (bcfb36ad-e18d-4774-b151-b1548abb2e58): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = '32' LIMIT 1;
+2020-12-03 09:31:29,918 INFO 11758 [egg-sequelize](4ms) Executed (bcfb36ad-e18d-4774-b151-b1548abb2e58): INSERT INTO `users` (`id`,`telephone`,`username`,`password`,`create_stamp`,`modify_stamp`) VALUES (DEFAULT,?,?,?,?,?);
+2020-12-03 09:31:29,925 INFO 11758 [egg-sequelize](6ms) Executed (bcfb36ad-e18d-4774-b151-b1548abb2e58): COMMIT;
+2020-12-03 09:31:29,925 INFO 11758 [-/127.0.0.1/-/17ms POST /keep_growing/web/registry] web controller registry方法结果 [
+  users {
+    dataValues: {
+      id: 4,
+      password: '23',
+      telephone: 'ewr',
+      username: '32',
+      modifyStamp: 2020-12-03T01:31:29.914Z,
+      createStamp: 2020-12-03T01:31:29.914Z
+    },
+    _previousDataValues: {
+      password: '23',
+      telephone: 'ewr',
+      username: '32',
+      id: 4,
+      createStamp: 2020-12-03T01:31:29.914Z,
+      modifyStamp: 2020-12-03T01:31:29.914Z
+    },
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: true,
+      _schema: null,
+      _schemaDelimiter: '',
+      attributes: undefined,
+      include: undefined,
+      raw: undefined,
+      silent: undefined
+    },
+    isNewRecord: false
+  },
+  true
+]
+2020-12-03 09:32:39,993 INFO 11758 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'dsa' LIMIT 1;
+2020-12-03 09:32:43,576 INFO 11758 [egg-sequelize](2ms) Executed (a669191d-8788-4937-8a8e-13d94ea0bf17): START TRANSACTION;
+2020-12-03 09:32:43,578 INFO 11758 [egg-sequelize](2ms) Executed (a669191d-8788-4937-8a8e-13d94ea0bf17): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'dsa' LIMIT 1;
+2020-12-03 09:32:43,584 INFO 11758 [egg-sequelize](5ms) Executed (a669191d-8788-4937-8a8e-13d94ea0bf17): INSERT INTO `users` (`id`,`telephone`,`username`,`password`,`create_stamp`,`modify_stamp`) VALUES (DEFAULT,?,?,?,?,?);
+2020-12-03 09:32:43,590 INFO 11758 [egg-sequelize](6ms) Executed (a669191d-8788-4937-8a8e-13d94ea0bf17): COMMIT;
+2020-12-03 09:32:43,590 INFO 11758 [-/127.0.0.1/-/17ms POST /keep_growing/web/registry] web controller registry方法结果 [
+  users {
+    dataValues: {
+      id: 5,
+      password: 'dsa',
+      telephone: 'das',
+      username: 'dsa',
+      modifyStamp: 2020-12-03T01:32:43.579Z,
+      createStamp: 2020-12-03T01:32:43.579Z
+    },
+    _previousDataValues: {
+      password: 'dsa',
+      telephone: 'das',
+      username: 'dsa',
+      id: 5,
+      createStamp: 2020-12-03T01:32:43.579Z,
+      modifyStamp: 2020-12-03T01:32:43.579Z
+    },
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: true,
+      _schema: null,
+      _schemaDelimiter: '',
+      attributes: undefined,
+      include: undefined,
+      raw: undefined,
+      silent: undefined
+    },
+    isNewRecord: false
+  },
+  true
+]
+2020-12-03 09:33:06,348 INFO 11758 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'dsa' LIMIT 1;
+2020-12-03 09:36:59,478 INFO 11758 [egg-sequelize](1ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = '32' LIMIT 1;
+2020-12-03 09:37:36,855 INFO 11758 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = '2' LIMIT 1;
+2020-12-03 09:38:59,460 INFO 11758 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = '23' LIMIT 1;
+2020-12-03 09:40:46,870 INFO 11758 [egg-sequelize](1ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'ew' LIMIT 1;
+2020-12-03 09:51:11,794 INFO 11758 [egg-sequelize](1ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = '32' LIMIT 1;
+2020-12-03 10:14:28,892 INFO 11758 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = '32' LIMIT 1;
+2020-12-03 10:15:14,757 INFO 11758 [egg-sequelize](1ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'ds' LIMIT 1;
+2020-12-03 10:15:36,287 INFO 11758 [egg-sequelize](1ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'ds' LIMIT 1;
+2020-12-03 10:17:04,139 INFO 11758 [egg-sequelize](3ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'ds' LIMIT 1;
+2020-12-03 10:18:13,837 INFO 11758 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'ew' LIMIT 1;
+2020-12-03 10:19:13,750 INFO 11758 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = '32' LIMIT 1;
+2020-12-03 10:19:51,409 INFO 11758 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 're' LIMIT 1;
+2020-12-03 10:21:05,616 INFO 11758 [egg-sequelize](1ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'ew' LIMIT 1;
+2020-12-03 10:48:39,963 INFO 11758 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = '12' LIMIT 1;
+2020-12-03 10:49:26,488 INFO 11758 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = '12' LIMIT 1;
+2020-12-03 10:51:31,246 INFO 11758 [egg-sequelize](1ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = '32' LIMIT 1;
+2020-12-03 10:56:06,678 INFO 11758 [egg-sequelize](1ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = '32' LIMIT 1;
+2020-12-03 10:56:29,884 INFO 11758 [egg-sequelize](1ms) Executed (52d3e550-a21b-4294-9969-619d1cfa3837): START TRANSACTION;
+2020-12-03 10:56:29,887 INFO 11758 [egg-sequelize](2ms) Executed (52d3e550-a21b-4294-9969-619d1cfa3837): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 10:56:29,893 INFO 11758 [egg-sequelize](5ms) Executed (52d3e550-a21b-4294-9969-619d1cfa3837): INSERT INTO `users` (`id`,`telephone`,`username`,`password`,`create_stamp`,`modify_stamp`) VALUES (DEFAULT,?,?,?,?,?);
+2020-12-03 10:56:29,901 INFO 11758 [egg-sequelize](8ms) Executed (52d3e550-a21b-4294-9969-619d1cfa3837): COMMIT;
+2020-12-03 10:56:29,901 INFO 11758 [-/127.0.0.1/-/27ms POST /keep_growing/web/registry] web controller registry方法结果 [
+  users {
+    dataValues: {
+      id: 6,
+      password: '123456',
+      telephone: '18368192710',
+      username: 'jaygao',
+      modifyStamp: 2020-12-03T02:56:29.888Z,
+      createStamp: 2020-12-03T02:56:29.888Z
+    },
+    _previousDataValues: {
+      password: '123456',
+      telephone: '18368192710',
+      username: 'jaygao',
+      id: 6,
+      createStamp: 2020-12-03T02:56:29.888Z,
+      modifyStamp: 2020-12-03T02:56:29.888Z
+    },
+    _changed: Set(0) {},
+    _options: {
+      isNewRecord: true,
+      _schema: null,
+      _schemaDelimiter: '',
+      attributes: undefined,
+      include: undefined,
+      raw: undefined,
+      silent: undefined
+    },
+    isNewRecord: false
+  },
+  true
+]
+2020-12-03 10:59:28,263 INFO 11758 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 11:00:10,585 INFO 11758 [egg-sequelize](1ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jayg' LIMIT 1;
+2020-12-03 11:01:49,181 INFO 11758 [egg-sequelize](4ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = '12' LIMIT 1;
+2020-12-03 11:02:45,147 INFO 11758 [egg-sequelize](3ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = '1' LIMIT 1;
+2020-12-03 11:02:53,210 INFO 11758 [egg-sequelize](3ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygap' LIMIT 1;
+2020-12-03 11:02:58,769 INFO 11758 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 11:03:34,954 INFO 11758 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 11:05:37,453 INFO 11758 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 11:06:34,109 INFO 11758 [egg-sequelize](1ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 11:16:57,280 INFO 11758 [egg-sequelize](3ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 11:17:45,576 INFO 11758 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 11:17:50,405 INFO 11758 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 11:21:42,603 INFO 11758 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 11:22:20,314 INFO 11758 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 11:25:05,566 INFO 11758 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 11:25:39,111 INFO 11758 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 11:26:42,538 INFO 11758 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 11:26:52,757 INFO 11758 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 11:28:24,659 INFO 11758 [egg-sequelize](1ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 11:29:10,938 INFO 11758 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 12:41:11,510 INFO 25027 didLoad
+2020-12-03 12:41:11,511 INFO 25027 app.config.env: local
+2020-12-03 12:41:11,521 INFO 25027 willReady
+2020-12-03 12:41:11,521 INFO 25027 didReady
+2020-12-03 12:41:11,646 INFO 25027 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:41:11,668 INFO 25027 serverDidReady
+2020-12-03 12:41:11,702 INFO 25027 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:41:35,727 INFO 25027 [egg-sequelize](4ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 12:41:35,749 ERROR 25027 [-/127.0.0.1/-/39ms POST /keep_growing/web/login] nodejs.ReferenceError: usersData is not defined
+    at WebController.login (/Users/gaojianbo/Documents/private/keep_growing_server/app/controller/web.js:38:57)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-static-cache/index.js:39:63
+
+pid: 25027
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 12:43:51,338 INFO 25243 didLoad
+2020-12-03 12:43:51,339 INFO 25243 app.config.env: local
+2020-12-03 12:43:51,349 INFO 25243 willReady
+2020-12-03 12:43:51,349 INFO 25243 didReady
+2020-12-03 12:43:51,464 INFO 25243 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:43:51,485 INFO 25243 serverDidReady
+2020-12-03 12:43:51,520 INFO 25243 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:43:53,851 INFO 25264 didLoad
+2020-12-03 12:43:53,852 INFO 25264 app.config.env: local
+2020-12-03 12:43:53,862 INFO 25264 willReady
+2020-12-03 12:43:53,863 INFO 25264 didReady
+2020-12-03 12:43:53,943 INFO 25264 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:43:53,965 INFO 25264 serverDidReady
+2020-12-03 12:43:53,998 INFO 25264 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:44:06,341 INFO 25287 didLoad
+2020-12-03 12:44:06,342 INFO 25287 app.config.env: local
+2020-12-03 12:44:06,352 INFO 25287 willReady
+2020-12-03 12:44:06,352 INFO 25287 didReady
+2020-12-03 12:44:06,461 INFO 25287 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:44:06,488 INFO 25287 serverDidReady
+2020-12-03 12:44:06,541 INFO 25287 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:44:08,723 INFO 25302 didLoad
+2020-12-03 12:44:08,724 INFO 25302 app.config.env: local
+2020-12-03 12:44:08,733 INFO 25302 willReady
+2020-12-03 12:44:08,734 INFO 25302 didReady
+2020-12-03 12:44:08,808 INFO 25302 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:44:08,830 INFO 25302 serverDidReady
+2020-12-03 12:44:08,862 INFO 25302 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:44:11,119 INFO 25309 didLoad
+2020-12-03 12:44:11,120 INFO 25309 app.config.env: local
+2020-12-03 12:44:11,128 INFO 25309 willReady
+2020-12-03 12:44:11,128 INFO 25309 didReady
+2020-12-03 12:44:11,200 INFO 25309 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:44:11,222 INFO 25309 serverDidReady
+2020-12-03 12:44:11,254 INFO 25309 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:44:19,257 INFO 25337 didLoad
+2020-12-03 12:44:19,258 INFO 25337 app.config.env: local
+2020-12-03 12:44:19,266 INFO 25337 willReady
+2020-12-03 12:44:19,267 INFO 25337 didReady
+2020-12-03 12:44:19,340 INFO 25337 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:44:19,362 INFO 25337 serverDidReady
+2020-12-03 12:44:19,393 INFO 25337 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:44:22,128 INFO 25344 didLoad
+2020-12-03 12:44:22,129 INFO 25344 app.config.env: local
+2020-12-03 12:44:22,138 INFO 25344 willReady
+2020-12-03 12:44:22,138 INFO 25344 didReady
+2020-12-03 12:44:22,218 INFO 25344 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:44:22,240 INFO 25344 serverDidReady
+2020-12-03 12:44:22,274 INFO 25344 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:44:23,820 INFO 25359 didLoad
+2020-12-03 12:44:23,820 INFO 25359 app.config.env: local
+2020-12-03 12:44:23,830 INFO 25359 willReady
+2020-12-03 12:44:23,830 INFO 25359 didReady
+2020-12-03 12:44:23,916 INFO 25359 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:44:23,939 INFO 25359 serverDidReady
+2020-12-03 12:44:23,975 INFO 25359 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:44:26,226 INFO 25366 didLoad
+2020-12-03 12:44:26,227 INFO 25366 app.config.env: local
+2020-12-03 12:44:26,235 INFO 25366 willReady
+2020-12-03 12:44:26,235 INFO 25366 didReady
+2020-12-03 12:44:26,306 INFO 25366 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:44:26,328 INFO 25366 serverDidReady
+2020-12-03 12:44:26,361 INFO 25366 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:45:25,167 INFO 25490 didLoad
+2020-12-03 12:45:25,167 INFO 25490 app.config.env: local
+2020-12-03 12:45:25,178 INFO 25490 willReady
+2020-12-03 12:45:25,178 INFO 25490 didReady
+2020-12-03 12:45:25,286 INFO 25490 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:45:25,308 INFO 25490 serverDidReady
+2020-12-03 12:45:25,344 INFO 25490 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:45:28,124 INFO 25504 didLoad
+2020-12-03 12:45:28,124 INFO 25504 app.config.env: local
+2020-12-03 12:45:28,134 INFO 25504 willReady
+2020-12-03 12:45:28,135 INFO 25504 didReady
+2020-12-03 12:45:28,207 INFO 25504 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:45:28,229 INFO 25504 serverDidReady
+2020-12-03 12:45:28,258 INFO 25504 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:45:31,275 INFO 25514 didLoad
+2020-12-03 12:45:31,276 INFO 25514 app.config.env: local
+2020-12-03 12:45:31,284 INFO 25514 willReady
+2020-12-03 12:45:31,284 INFO 25514 didReady
+2020-12-03 12:45:31,359 INFO 25514 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:45:31,380 INFO 25514 serverDidReady
+2020-12-03 12:45:31,411 INFO 25514 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:45:33,261 INFO 25528 didLoad
+2020-12-03 12:45:33,261 INFO 25528 app.config.env: local
+2020-12-03 12:45:33,269 INFO 25528 willReady
+2020-12-03 12:45:33,270 INFO 25528 didReady
+2020-12-03 12:45:33,342 INFO 25528 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:45:33,364 INFO 25528 serverDidReady
+2020-12-03 12:45:33,396 INFO 25528 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:45:34,890 INFO 25533 didLoad
+2020-12-03 12:45:34,890 INFO 25533 app.config.env: local
+2020-12-03 12:45:34,898 INFO 25533 willReady
+2020-12-03 12:45:34,899 INFO 25533 didReady
+2020-12-03 12:45:34,972 INFO 25533 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:45:34,994 INFO 25533 serverDidReady
+2020-12-03 12:45:35,028 INFO 25533 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:45:40,526 INFO 25549 didLoad
+2020-12-03 12:45:40,527 INFO 25549 app.config.env: local
+2020-12-03 12:45:40,535 INFO 25549 willReady
+2020-12-03 12:45:40,536 INFO 25549 didReady
+2020-12-03 12:45:40,610 INFO 25549 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:45:40,632 INFO 25549 serverDidReady
+2020-12-03 12:45:40,661 INFO 25549 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:45:47,157 INFO 25565 didLoad
+2020-12-03 12:45:47,158 INFO 25565 app.config.env: local
+2020-12-03 12:45:47,166 INFO 25565 willReady
+2020-12-03 12:45:47,167 INFO 25565 didReady
+2020-12-03 12:45:47,237 INFO 25565 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:45:47,259 INFO 25565 serverDidReady
+2020-12-03 12:45:47,290 INFO 25565 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:46:10,671 INFO 25597 didLoad
+2020-12-03 12:46:10,672 INFO 25597 app.config.env: local
+2020-12-03 12:46:10,680 INFO 25597 willReady
+2020-12-03 12:46:10,680 INFO 25597 didReady
+2020-12-03 12:46:10,817 INFO 25597 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:46:10,843 INFO 25597 serverDidReady
+2020-12-03 12:46:10,893 INFO 25597 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:46:12,903 INFO 25611 didLoad
+2020-12-03 12:46:12,904 INFO 25611 app.config.env: local
+2020-12-03 12:46:12,912 INFO 25611 willReady
+2020-12-03 12:46:12,912 INFO 25611 didReady
+2020-12-03 12:46:12,987 INFO 25611 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:46:13,010 INFO 25611 serverDidReady
+2020-12-03 12:46:13,044 INFO 25611 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:46:15,244 INFO 25617 didLoad
+2020-12-03 12:46:15,245 INFO 25617 app.config.env: local
+2020-12-03 12:46:15,254 INFO 25617 willReady
+2020-12-03 12:46:15,254 INFO 25617 didReady
+2020-12-03 12:46:15,330 INFO 25617 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:46:15,351 INFO 25617 serverDidReady
+2020-12-03 12:46:15,384 INFO 25617 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:46:17,957 INFO 25631 didLoad
+2020-12-03 12:46:17,957 INFO 25631 app.config.env: local
+2020-12-03 12:46:17,965 INFO 25631 willReady
+2020-12-03 12:46:17,965 INFO 25631 didReady
+2020-12-03 12:46:18,036 INFO 25631 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:46:18,057 INFO 25631 serverDidReady
+2020-12-03 12:46:18,090 INFO 25631 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:46:40,922 INFO 25631 [egg-sequelize](3ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 12:46:40,924 ERROR 25631 [-/127.0.0.1/-/35ms POST /keep_growing/web/login] nodejs.ReferenceError: fs is not defined
+    at Helper.loginToken (/Users/gaojianbo/Documents/private/keep_growing_server/app/extend/helper.js:4:18)
+    at WebController.login (/Users/gaojianbo/Documents/private/keep_growing_server/app/controller/web.js:38:36)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-bodyparser/index.js:95:5)
+
+pid: 25631
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 12:47:00,505 INFO 25712 didLoad
+2020-12-03 12:47:00,505 INFO 25712 app.config.env: local
+2020-12-03 12:47:00,514 INFO 25712 willReady
+2020-12-03 12:47:00,515 INFO 25712 didReady
+2020-12-03 12:47:00,642 INFO 25712 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:47:00,667 INFO 25712 serverDidReady
+2020-12-03 12:47:00,710 INFO 25712 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:47:17,482 INFO 25742 didLoad
+2020-12-03 12:47:17,483 INFO 25742 app.config.env: local
+2020-12-03 12:47:17,491 INFO 25742 willReady
+2020-12-03 12:47:17,491 INFO 25742 didReady
+2020-12-03 12:47:17,604 INFO 25742 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:47:17,628 INFO 25742 serverDidReady
+2020-12-03 12:47:17,667 INFO 25742 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:47:18,867 INFO 25748 didLoad
+2020-12-03 12:47:18,868 INFO 25748 app.config.env: local
+2020-12-03 12:47:18,877 INFO 25748 willReady
+2020-12-03 12:47:18,877 INFO 25748 didReady
+2020-12-03 12:47:18,964 INFO 25748 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:47:18,990 INFO 25748 serverDidReady
+2020-12-03 12:47:19,037 INFO 25748 [egg-sequelize](4ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:47:20,968 INFO 25748 [egg-sequelize](4ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 12:47:21,019 ERROR 25748 [-/127.0.0.1/-/23ms POST /keep_growing/web/login] nodejs.ReferenceError: path is not defined
+    at Helper.loginToken (/Users/gaojianbo/Documents/private/keep_growing_server/app/extend/helper.js:6:7)
+    at WebController.login (/Users/gaojianbo/Documents/private/keep_growing_server/app/controller/web.js:38:36)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-bodyparser/index.js:95:5)
+
+pid: 25748
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 12:47:39,774 INFO 25811 didLoad
+2020-12-03 12:47:39,775 INFO 25811 app.config.env: local
+2020-12-03 12:47:39,783 INFO 25811 willReady
+2020-12-03 12:47:39,783 INFO 25811 didReady
+2020-12-03 12:47:39,856 INFO 25811 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:47:39,881 INFO 25811 serverDidReady
+2020-12-03 12:47:39,910 INFO 25811 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:50:29,381 INFO 26062 didLoad
+2020-12-03 12:50:29,382 INFO 26062 app.config.env: local
+2020-12-03 12:50:29,393 INFO 26062 willReady
+2020-12-03 12:50:29,394 INFO 26062 didReady
+2020-12-03 12:50:29,484 INFO 26062 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:50:29,511 INFO 26062 serverDidReady
+2020-12-03 12:50:29,546 INFO 26062 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:50:44,263 INFO 26062 [egg-sequelize](3ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 12:50:44,293 ERROR 26062 [-/127.0.0.1/-/34ms POST /keep_growing/web/login] nodejs.ReferenceError: jwt is not defined
+    at Helper.loginToken (/Users/gaojianbo/Documents/private/keep_growing_server/app/extend/helper.js:9:19)
+    at WebController.login (/Users/gaojianbo/Documents/private/keep_growing_server/app/controller/web.js:38:36)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-bodyparser/index.js:95:5)
+
+pid: 26062
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 12:51:25,967 INFO 26155 didLoad
+2020-12-03 12:51:25,967 INFO 26155 app.config.env: local
+2020-12-03 12:51:25,975 INFO 26155 willReady
+2020-12-03 12:51:25,975 INFO 26155 didReady
+2020-12-03 12:51:26,048 INFO 26155 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:51:26,071 INFO 26155 serverDidReady
+2020-12-03 12:51:26,109 INFO 26155 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:51:50,288 INFO 26155 [egg-sequelize](4ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 12:51:50,295 ERROR 26155 [-/127.0.0.1/-/40ms POST /keep_growing/web/login] nodejs.ReferenceError: app is not defined
+    at WebController.login (/Users/gaojianbo/Documents/private/keep_growing_server/app/controller/web.js:39:11)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-static-cache/index.js:39:63
+
+pid: 26155
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 12:52:12,721 INFO 26212 didLoad
+2020-12-03 12:52:12,721 INFO 26212 app.config.env: local
+2020-12-03 12:52:12,729 INFO 26212 willReady
+2020-12-03 12:52:12,730 INFO 26212 didReady
+2020-12-03 12:52:12,802 INFO 26212 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:52:12,824 INFO 26212 serverDidReady
+2020-12-03 12:52:12,857 INFO 26212 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:52:21,892 INFO 26212 [egg-sequelize](3ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 12:52:21,914 ERROR 26212 [-/127.0.0.1/-/21ms POST /keep_growing/web/login] nodejs.TypeError: Cannot read property 'get' of undefined
+    at WebController.login (/Users/gaojianbo/Documents/private/keep_growing_server/app/controller/web.js:39:27)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-static-cache/index.js:39:63
+
+pid: 26212
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 12:52:38,066 INFO 26245 didLoad
+2020-12-03 12:52:38,066 INFO 26245 app.config.env: local
+2020-12-03 12:52:38,076 INFO 26245 willReady
+2020-12-03 12:52:38,076 INFO 26245 didReady
+2020-12-03 12:52:38,165 INFO 26245 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:52:38,189 INFO 26245 serverDidReady
+2020-12-03 12:52:38,231 INFO 26245 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:52:38,623 INFO 26245 [egg-sequelize](5ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 12:52:38,663 ERROR 26245 [-/127.0.0.1/-/28ms POST /keep_growing/web/login] nodejs.TypeError: Cannot read property 'get' of undefined
+    at WebController.login (/Users/gaojianbo/Documents/private/keep_growing_server/app/controller/web.js:39:31)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-static-cache/index.js:39:63
+
+pid: 26245
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 12:53:29,615 INFO 26323 didLoad
+2020-12-03 12:53:29,615 INFO 26323 app.config.env: local
+2020-12-03 12:53:29,624 INFO 26323 willReady
+2020-12-03 12:53:29,624 INFO 26323 didReady
+2020-12-03 12:53:29,696 INFO 26323 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:53:29,718 INFO 26323 serverDidReady
+2020-12-03 12:53:29,749 INFO 26323 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:53:34,990 INFO 26323 [egg-sequelize](5ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 12:53:34,994 ERROR 26323 [-/127.0.0.1/-/25ms POST /keep_growing/web/login] nodejs.TypeError: Cannot read property 'get' of undefined
+    at WebController.login (/Users/gaojianbo/Documents/private/keep_growing_server/app/controller/web.js:39:32)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-static-cache/index.js:39:63
+
+pid: 26323
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 12:54:37,886 INFO 26447 didLoad
+2020-12-03 12:54:37,886 INFO 26447 app.config.env: local
+2020-12-03 12:54:37,896 INFO 26447 willReady
+2020-12-03 12:54:37,897 INFO 26447 didReady
+2020-12-03 12:54:38,020 INFO 26447 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:54:38,046 INFO 26447 serverDidReady
+2020-12-03 12:54:38,087 INFO 26447 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:54:59,864 INFO 26482 didLoad
+2020-12-03 12:54:59,864 INFO 26482 app.config.env: local
+2020-12-03 12:54:59,872 INFO 26482 willReady
+2020-12-03 12:54:59,873 INFO 26482 didReady
+2020-12-03 12:54:59,989 INFO 26482 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:55:00,024 INFO 26482 serverDidReady
+2020-12-03 12:55:00,096 INFO 26482 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:55:03,987 INFO 26497 didLoad
+2020-12-03 12:55:03,988 INFO 26497 app.config.env: local
+2020-12-03 12:55:03,999 INFO 26497 willReady
+2020-12-03 12:55:04,000 INFO 26497 didReady
+2020-12-03 12:55:04,091 INFO 26497 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:55:04,112 INFO 26497 serverDidReady
+2020-12-03 12:55:04,144 INFO 26497 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:55:09,747 INFO 26497 [egg-sequelize](6ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 12:55:09,752 ERROR 26497 [-/127.0.0.1/-/31ms POST /keep_growing/web/login] nodejs.TypeError: Cannot read property 'get' of undefined
+    at WebController.login (/Users/gaojianbo/Documents/private/keep_growing_server/app/controller/web.js:40:31)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-static-cache/index.js:39:63
+
+pid: 26497
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 12:55:46,413 INFO 26533 didLoad
+2020-12-03 12:55:46,413 INFO 26533 app.config.env: local
+2020-12-03 12:55:46,421 INFO 26533 willReady
+2020-12-03 12:55:46,421 INFO 26533 didReady
+2020-12-03 12:55:46,514 INFO 26533 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:55:46,553 INFO 26533 serverDidReady
+2020-12-03 12:55:46,622 INFO 26533 [egg-sequelize](4ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:55:47,278 INFO 26533 [egg-sequelize](4ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 12:55:47,333 ERROR 26533 [-/127.0.0.1/-/72ms POST /keep_growing/web/login] nodejs.TypeError: Cannot read property 'get' of undefined
+    at WebController.login (/Users/gaojianbo/Documents/private/keep_growing_server/app/controller/web.js:40:31)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-static-cache/index.js:39:63
+
+pid: 26533
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 12:58:02,231 INFO 26722 didLoad
+2020-12-03 12:58:02,232 INFO 26722 app.config.env: local
+2020-12-03 12:58:02,241 INFO 26722 willReady
+2020-12-03 12:58:02,241 INFO 26722 didReady
+2020-12-03 12:58:02,288 INFO 26722 initRedis, host:127.0.0.1, port:16379
+2020-12-03 12:58:02,418 INFO 26722 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:58:02,440 ERROR 26722 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:16379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1133:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 16379
+name: "ECONNREFUSEDError"
+pid: 26722
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 12:58:02,440 INFO 26722 serverDidReady
+2020-12-03 12:58:02,477 INFO 26722 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:58:03,257 INFO 26737 didLoad
+2020-12-03 12:58:03,257 INFO 26737 app.config.env: local
+2020-12-03 12:58:03,261 INFO 26737 serverDidReady
+2020-12-03 12:58:03,266 INFO 26737 willReady
+2020-12-03 12:58:03,266 INFO 26737 didReady
+2020-12-03 12:58:03,295 INFO 26737 initRedis, host:127.0.0.1, port:16379
+2020-12-03 12:58:03,382 INFO 26737 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:58:03,401 ERROR 26737 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:16379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1133:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 16379
+name: "ECONNREFUSEDError"
+pid: 26737
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 12:58:03,434 INFO 26737 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:58:31,025 INFO 26783 didLoad
+2020-12-03 12:58:31,026 INFO 26783 app.config.env: local
+2020-12-03 12:58:31,036 INFO 26783 willReady
+2020-12-03 12:58:31,037 INFO 26783 didReady
+2020-12-03 12:58:31,083 INFO 26783 initRedis, host:127.0.0.1, port:6379
+2020-12-03 12:58:31,214 INFO 26783 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:58:31,235 INFO 26783 serverDidReady
+2020-12-03 12:58:31,276 INFO 26783 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:58:38,703 INFO 26814 didLoad
+2020-12-03 12:58:38,703 INFO 26814 app.config.env: local
+2020-12-03 12:58:38,712 INFO 26814 willReady
+2020-12-03 12:58:38,713 INFO 26814 didReady
+2020-12-03 12:58:38,813 INFO 26814 nodejs.AssertionError: [egg-redis] 'host: 127.0.0.1', 'port: 6379', 'password: undefined', 'db: 0' are required on config
+    at Singleton.createClient [as create] (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-redis/lib/redis.js:38:5)
+    at Singleton.createInstance (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/lib/egg.js:466:35)
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-redis/lib/redis.js:7:7)
+    at AppBootHook.initRedis (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:137:7)
+    at AppBootHook.didReady (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:130:16)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:193:24
+    at Lifecycle.triggerDidReady (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:200:7)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 26814
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 12:58:38,961 INFO 26814 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:58:38,981 INFO 26814 serverDidReady
+2020-12-03 12:58:39,072 INFO 26814 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:58:43,225 INFO 26814 [egg-sequelize](4ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 12:58:43,236 ERROR 26814 [-/127.0.0.1/-/31ms POST /keep_growing/web/login] nodejs.TypeError: Cannot read property 'get' of undefined
+    at WebController.login (/Users/gaojianbo/Documents/private/keep_growing_server/app/controller/web.js:40:31)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-static-cache/index.js:39:63
+
+pid: 26814
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 12:59:03,108 INFO 26894 didLoad
+2020-12-03 12:59:03,108 INFO 26894 app.config.env: local
+2020-12-03 12:59:03,120 INFO 26894 willReady
+2020-12-03 12:59:03,120 INFO 26894 didReady
+2020-12-03 12:59:03,152 INFO 26894 nodejs.AssertionError: [egg-redis] 'host: 127.0.0.1', 'port: 6379', 'password: undefined', 'db: 0' are required on config
+    at Singleton.createClient [as create] (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-redis/lib/redis.js:38:5)
+    at Singleton.createInstance (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/lib/egg.js:466:35)
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-redis/lib/redis.js:7:7)
+    at AppBootHook.initRedis (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:137:7)
+    at AppBootHook.didReady (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:130:16)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:193:24
+    at Lifecycle.triggerDidReady (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:200:7)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 26894
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 12:59:03,667 INFO 26894 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:59:03,684 INFO 26894 serverDidReady
+2020-12-03 12:59:03,716 INFO 26894 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:59:22,319 INFO 26929 didLoad
+2020-12-03 12:59:22,319 INFO 26929 app.config.env: local
+2020-12-03 12:59:22,329 INFO 26929 willReady
+2020-12-03 12:59:22,329 INFO 26929 didReady
+2020-12-03 12:59:22,357 INFO 26929 initRedis, host:127.0.0.1, port:6379
+2020-12-03 12:59:22,444 INFO 26929 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:59:22,464 INFO 26929 serverDidReady
+2020-12-03 12:59:22,505 INFO 26929 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:59:25,604 INFO 26947 didLoad
+2020-12-03 12:59:25,605 INFO 26947 app.config.env: local
+2020-12-03 12:59:25,612 INFO 26947 willReady
+2020-12-03 12:59:25,613 INFO 26947 didReady
+2020-12-03 12:59:25,638 INFO 26947 nodejs.AssertionError: [egg-redis] 'host: 127.0.0.1', 'port: 6379', 'password: undefined', 'db: 0' are required on config
+    at Singleton.createClient [as create] (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-redis/lib/redis.js:38:5)
+    at Singleton.createInstance (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/lib/egg.js:466:35)
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-redis/lib/redis.js:7:7)
+    at AppBootHook.initRedis (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:137:7)
+    at AppBootHook.didReady (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:130:16)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:193:24
+    at Lifecycle.triggerDidReady (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:200:7)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 26947
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 12:59:25,751 INFO 26947 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:59:25,770 INFO 26947 serverDidReady
+2020-12-03 12:59:25,804 INFO 26947 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 12:59:33,634 INFO 27003 didLoad
+2020-12-03 12:59:33,635 INFO 27003 app.config.env: local
+2020-12-03 12:59:33,647 INFO 27003 willReady
+2020-12-03 12:59:33,647 INFO 27003 didReady
+2020-12-03 12:59:33,677 INFO 27003 nodejs.AssertionError: [egg-redis] 'host: 127.0.0.1', 'port: 6379', 'password: undefined', 'db: 0' are required on config
+    at Singleton.createClient [as create] (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-redis/lib/redis.js:38:5)
+    at Singleton.createInstance (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/lib/core/singleton.js:88:17)
+    at Singleton.initSync (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/lib/core/singleton.js:31:27)
+    at Singleton.init (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/lib/core/singleton.js:21:68)
+    at Application.addSingleton (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg/lib/egg.js:466:35)
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-redis/lib/redis.js:7:7)
+    at AppBootHook.initRedis (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:137:7)
+    at AppBootHook.didReady (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:130:16)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:193:24
+    at Lifecycle.triggerDidReady (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:200:7)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 27003
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 12:59:34,147 INFO 27003 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 12:59:34,167 INFO 27003 serverDidReady
+2020-12-03 12:59:34,197 INFO 27003 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:01:52,628 INFO 27252 didLoad
+2020-12-03 13:01:52,629 INFO 27252 app.config.env: local
+2020-12-03 13:01:52,643 INFO 27252 willReady
+2020-12-03 13:01:52,644 INFO 27252 didReady
+2020-12-03 13:01:52,696 INFO 27252 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:01:52,828 INFO 27252 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:01:52,848 INFO 27252 serverDidReady
+2020-12-03 13:01:52,882 INFO 27252 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:02:12,421 INFO 27252 [egg-sequelize](3ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 13:02:12,430 ERROR 27252 [-/127.0.0.1/-/45ms POST /keep_growing/web/login] nodejs.TypeError: ctx.app.redis.get(...).set is not a function
+    at WebController.login (/Users/gaojianbo/Documents/private/keep_growing_server/app/controller/web.js:40:49)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-static-cache/index.js:39:63
+
+pid: 27252
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 13:02:59,784 INFO 27345 didLoad
+2020-12-03 13:02:59,785 INFO 27345 app.config.env: local
+2020-12-03 13:02:59,793 INFO 27345 willReady
+2020-12-03 13:02:59,793 INFO 27345 didReady
+2020-12-03 13:02:59,819 INFO 27345 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:02:59,901 INFO 27345 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:02:59,919 INFO 27345 serverDidReady
+2020-12-03 13:02:59,955 INFO 27345 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:03:07,567 INFO 27345 [egg-sequelize](4ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 13:03:07,573 ERROR 27345 [-/127.0.0.1/-/26ms POST /keep_growing/web/login] nodejs.TypeError: ctx.app.redis.get(...).set is not a function
+    at WebController.login (/Users/gaojianbo/Documents/private/keep_growing_server/app/controller/web.js:40:49)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-static-cache/index.js:39:63
+
+pid: 27345
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 13:03:42,977 INFO 27389 didLoad
+2020-12-03 13:03:42,978 INFO 27389 app.config.env: local
+2020-12-03 13:03:42,987 INFO 27389 willReady
+2020-12-03 13:03:42,988 INFO 27389 didReady
+2020-12-03 13:03:43,018 INFO 27389 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:03:43,115 INFO 27389 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:03:43,136 INFO 27389 serverDidReady
+2020-12-03 13:03:43,170 INFO 27389 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:03:44,698 INFO 27411 didLoad
+2020-12-03 13:03:44,699 INFO 27411 app.config.env: local
+2020-12-03 13:03:44,708 INFO 27411 willReady
+2020-12-03 13:03:44,708 INFO 27411 didReady
+2020-12-03 13:03:44,739 INFO 27411 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:03:44,838 INFO 27411 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:03:44,859 INFO 27411 serverDidReady
+2020-12-03 13:03:44,900 INFO 27411 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:03:54,232 INFO 27430 didLoad
+2020-12-03 13:03:54,233 INFO 27430 app.config.env: local
+2020-12-03 13:03:54,241 INFO 27430 willReady
+2020-12-03 13:03:54,242 INFO 27430 didReady
+2020-12-03 13:03:54,272 INFO 27430 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:03:54,378 INFO 27430 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:03:54,396 INFO 27430 serverDidReady
+2020-12-03 13:03:54,436 INFO 27430 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:03:55,259 INFO 27430 [egg-sequelize](4ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 13:03:55,351 ERROR 27430 [-/127.0.0.1/-/113ms POST /keep_growing/web/login] nodejs.TypeError: ctx.app.redis.get(...).set is not a function
+    at WebController.login (/Users/gaojianbo/Documents/private/keep_growing_server/app/controller/web.js:40:49)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-static-cache/index.js:39:63
+
+pid: 27430
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 13:04:44,083 INFO 27508 didLoad
+2020-12-03 13:04:44,083 INFO 27508 app.config.env: local
+2020-12-03 13:04:44,092 INFO 27508 willReady
+2020-12-03 13:04:44,093 INFO 27508 didReady
+2020-12-03 13:04:44,119 INFO 27508 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:04:44,221 INFO 27508 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:04:44,241 INFO 27508 serverDidReady
+2020-12-03 13:04:44,284 INFO 27508 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:04:46,749 INFO 27508 [egg-sequelize](4ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 13:04:46,760 ERROR 27508 [-/127.0.0.1/-/28ms POST /keep_growing/web/login] nodejs.TypeError: ctx.app.redis.get(...).set is not a function
+    at WebController.login (/Users/gaojianbo/Documents/private/keep_growing_server/app/controller/web.js:40:49)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-static-cache/index.js:39:63
+
+pid: 27508
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 13:05:05,262 INFO 27550 didLoad
+2020-12-03 13:05:05,262 INFO 27550 app.config.env: local
+2020-12-03 13:05:05,271 INFO 27550 willReady
+2020-12-03 13:05:05,271 INFO 27550 didReady
+2020-12-03 13:05:05,317 INFO 27550 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:05:05,438 INFO 27550 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:05:05,459 INFO 27550 serverDidReady
+2020-12-03 13:05:05,496 INFO 27550 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:05:21,994 INFO 27594 didLoad
+2020-12-03 13:05:21,995 INFO 27594 app.config.env: local
+2020-12-03 13:05:22,003 INFO 27594 willReady
+2020-12-03 13:05:22,003 INFO 27594 didReady
+2020-12-03 13:05:22,034 INFO 27594 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:05:22,129 INFO 27594 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:05:22,150 INFO 27594 serverDidReady
+2020-12-03 13:05:22,183 INFO 27594 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:05:24,169 INFO 27609 didLoad
+2020-12-03 13:05:24,170 INFO 27609 app.config.env: local
+2020-12-03 13:05:24,179 INFO 27609 willReady
+2020-12-03 13:05:24,179 INFO 27609 didReady
+2020-12-03 13:05:24,209 INFO 27609 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:05:24,302 INFO 27609 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:05:24,323 INFO 27609 serverDidReady
+2020-12-03 13:05:24,356 INFO 27609 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:05:25,875 INFO 27616 didLoad
+2020-12-03 13:05:25,876 INFO 27616 app.config.env: local
+2020-12-03 13:05:25,885 INFO 27616 willReady
+2020-12-03 13:05:25,885 INFO 27616 didReady
+2020-12-03 13:05:25,913 INFO 27616 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:05:26,005 INFO 27616 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:05:26,027 INFO 27616 serverDidReady
+2020-12-03 13:05:26,063 INFO 27616 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:05:30,381 INFO 27635 didLoad
+2020-12-03 13:05:30,382 INFO 27635 app.config.env: local
+2020-12-03 13:05:30,391 INFO 27635 willReady
+2020-12-03 13:05:30,391 INFO 27635 didReady
+2020-12-03 13:05:30,419 INFO 27635 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:05:30,529 INFO 27635 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:05:30,550 INFO 27635 serverDidReady
+2020-12-03 13:05:30,585 INFO 27635 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:05:32,540 INFO 27642 didLoad
+2020-12-03 13:05:32,540 INFO 27642 app.config.env: local
+2020-12-03 13:05:32,549 INFO 27642 willReady
+2020-12-03 13:05:32,549 INFO 27642 didReady
+2020-12-03 13:05:32,576 INFO 27642 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:05:32,663 INFO 27642 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:05:32,683 INFO 27642 serverDidReady
+2020-12-03 13:05:32,724 INFO 27642 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:05:34,779 INFO 27657 didLoad
+2020-12-03 13:05:34,779 INFO 27657 app.config.env: local
+2020-12-03 13:05:34,787 INFO 27657 willReady
+2020-12-03 13:05:34,787 INFO 27657 didReady
+2020-12-03 13:05:34,815 INFO 27657 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:05:34,900 INFO 27657 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:05:34,921 INFO 27657 serverDidReady
+2020-12-03 13:05:34,959 INFO 27657 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:05:38,883 INFO 27673 didLoad
+2020-12-03 13:05:38,884 INFO 27673 app.config.env: local
+2020-12-03 13:05:38,892 INFO 27673 willReady
+2020-12-03 13:05:38,892 INFO 27673 didReady
+2020-12-03 13:05:38,917 INFO 27673 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:05:39,002 INFO 27673 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:05:39,023 INFO 27673 serverDidReady
+2020-12-03 13:05:39,059 INFO 27673 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:05:43,849 INFO 27673 [egg-sequelize](3ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 13:07:12,571 INFO 27824 didLoad
+2020-12-03 13:07:12,572 INFO 27824 app.config.env: local
+2020-12-03 13:07:12,580 INFO 27824 willReady
+2020-12-03 13:07:12,580 INFO 27824 didReady
+2020-12-03 13:07:12,605 INFO 27824 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:07:12,694 INFO 27824 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:07:12,715 INFO 27824 serverDidReady
+2020-12-03 13:07:12,748 INFO 27824 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:07:16,584 INFO 27839 didLoad
+2020-12-03 13:07:16,584 INFO 27839 app.config.env: local
+2020-12-03 13:07:16,592 INFO 27839 willReady
+2020-12-03 13:07:16,592 INFO 27839 didReady
+2020-12-03 13:07:16,617 INFO 27839 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:07:16,698 INFO 27839 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:07:16,716 INFO 27839 serverDidReady
+2020-12-03 13:07:16,745 INFO 27839 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:07:23,337 INFO 27868 didLoad
+2020-12-03 13:07:23,338 INFO 27868 app.config.env: local
+2020-12-03 13:07:23,346 INFO 27868 willReady
+2020-12-03 13:07:23,347 INFO 27868 didReady
+2020-12-03 13:07:23,377 INFO 27868 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:07:23,454 INFO 27868 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:07:23,471 INFO 27868 serverDidReady
+2020-12-03 13:07:23,501 INFO 27868 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:07:26,413 INFO 27875 didLoad
+2020-12-03 13:07:26,414 INFO 27875 app.config.env: local
+2020-12-03 13:07:26,422 INFO 27875 willReady
+2020-12-03 13:07:26,422 INFO 27875 didReady
+2020-12-03 13:07:26,448 INFO 27875 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:07:26,562 INFO 27875 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:07:26,589 INFO 27875 serverDidReady
+2020-12-03 13:07:26,643 INFO 27875 [egg-sequelize](5ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:09:06,752 INFO 27990 didLoad
+2020-12-03 13:09:06,753 INFO 27990 app.config.env: local
+2020-12-03 13:09:06,761 INFO 27990 willReady
+2020-12-03 13:09:06,761 INFO 27990 didReady
+2020-12-03 13:09:06,788 INFO 27990 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:09:06,866 INFO 27990 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:09:06,884 INFO 27990 serverDidReady
+2020-12-03 13:09:06,914 INFO 27990 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:09:08,291 INFO 28001 didLoad
+2020-12-03 13:09:08,291 INFO 28001 app.config.env: local
+2020-12-03 13:09:08,299 INFO 28001 willReady
+2020-12-03 13:09:08,299 INFO 28001 didReady
+2020-12-03 13:09:08,325 INFO 28001 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:09:08,403 INFO 28001 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:09:08,420 INFO 28001 serverDidReady
+2020-12-03 13:09:08,452 INFO 28001 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:09:11,172 INFO 28016 didLoad
+2020-12-03 13:09:11,172 INFO 28016 app.config.env: local
+2020-12-03 13:09:11,181 INFO 28016 willReady
+2020-12-03 13:09:11,181 INFO 28016 didReady
+2020-12-03 13:09:11,211 INFO 28016 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:09:11,290 INFO 28016 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:09:11,308 INFO 28016 serverDidReady
+2020-12-03 13:09:11,340 INFO 28016 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:09:34,064 INFO 28047 didLoad
+2020-12-03 13:09:34,064 INFO 28047 app.config.env: local
+2020-12-03 13:09:34,072 INFO 28047 willReady
+2020-12-03 13:09:34,072 INFO 28047 didReady
+2020-12-03 13:09:34,100 INFO 28047 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:09:34,178 INFO 28047 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:09:34,197 INFO 28047 serverDidReady
+2020-12-03 13:09:34,228 INFO 28047 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:09:38,742 INFO 28069 didLoad
+2020-12-03 13:09:38,742 INFO 28069 app.config.env: local
+2020-12-03 13:09:38,751 INFO 28069 willReady
+2020-12-03 13:09:38,751 INFO 28069 didReady
+2020-12-03 13:09:38,776 INFO 28069 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:09:38,855 INFO 28069 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:09:38,873 INFO 28069 serverDidReady
+2020-12-03 13:09:38,902 INFO 28069 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:09:49,671 INFO 28101 didLoad
+2020-12-03 13:09:49,672 INFO 28101 app.config.env: local
+2020-12-03 13:09:49,680 INFO 28101 willReady
+2020-12-03 13:09:49,680 INFO 28101 didReady
+2020-12-03 13:09:49,705 INFO 28101 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:09:49,785 INFO 28101 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:09:49,803 INFO 28101 serverDidReady
+2020-12-03 13:09:49,829 INFO 28101 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:09:57,025 INFO 28131 didLoad
+2020-12-03 13:09:57,026 INFO 28131 app.config.env: local
+2020-12-03 13:09:57,034 INFO 28131 willReady
+2020-12-03 13:09:57,034 INFO 28131 didReady
+2020-12-03 13:09:57,060 INFO 28131 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:09:57,139 INFO 28131 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:09:57,157 INFO 28131 serverDidReady
+2020-12-03 13:09:57,186 INFO 28131 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:09:58,265 INFO 28137 didLoad
+2020-12-03 13:09:58,266 INFO 28137 app.config.env: local
+2020-12-03 13:09:58,275 INFO 28137 willReady
+2020-12-03 13:09:58,275 INFO 28137 didReady
+2020-12-03 13:09:58,302 INFO 28137 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:09:58,382 INFO 28137 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:09:58,399 INFO 28137 serverDidReady
+2020-12-03 13:09:58,438 INFO 28137 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:10:00,148 INFO 28146 didLoad
+2020-12-03 13:10:00,148 INFO 28146 app.config.env: local
+2020-12-03 13:10:00,156 INFO 28146 willReady
+2020-12-03 13:10:00,156 INFO 28146 didReady
+2020-12-03 13:10:00,184 INFO 28146 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:10:00,261 INFO 28146 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:10:00,279 INFO 28146 serverDidReady
+2020-12-03 13:10:00,310 INFO 28146 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:10:03,323 INFO 28164 didLoad
+2020-12-03 13:10:03,324 INFO 28164 app.config.env: local
+2020-12-03 13:10:03,332 INFO 28164 willReady
+2020-12-03 13:10:03,333 INFO 28164 didReady
+2020-12-03 13:10:03,360 INFO 28164 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:10:03,441 INFO 28164 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:10:03,462 INFO 28164 serverDidReady
+2020-12-03 13:10:03,495 INFO 28164 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:10:09,165 INFO 28208 didLoad
+2020-12-03 13:10:09,165 INFO 28208 app.config.env: local
+2020-12-03 13:10:09,173 INFO 28208 willReady
+2020-12-03 13:10:09,174 INFO 28208 didReady
+2020-12-03 13:10:09,201 INFO 28208 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:10:09,283 INFO 28208 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:10:09,300 INFO 28208 serverDidReady
+2020-12-03 13:10:09,328 INFO 28208 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:10:19,573 INFO 28228 didLoad
+2020-12-03 13:10:19,573 INFO 28228 app.config.env: local
+2020-12-03 13:10:19,581 INFO 28228 willReady
+2020-12-03 13:10:19,582 INFO 28228 didReady
+2020-12-03 13:10:19,609 INFO 28228 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:10:19,691 INFO 28228 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:10:19,712 INFO 28228 serverDidReady
+2020-12-03 13:10:19,751 INFO 28228 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:10:39,714 INFO 28276 didLoad
+2020-12-03 13:10:39,714 INFO 28276 app.config.env: local
+2020-12-03 13:10:39,723 INFO 28276 willReady
+2020-12-03 13:10:39,724 INFO 28276 didReady
+2020-12-03 13:10:39,754 INFO 28276 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:10:39,833 INFO 28276 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:10:39,850 INFO 28276 serverDidReady
+2020-12-03 13:10:39,881 INFO 28276 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:10:46,728 INFO 28295 didLoad
+2020-12-03 13:10:46,728 INFO 28295 app.config.env: local
+2020-12-03 13:10:46,736 INFO 28295 willReady
+2020-12-03 13:10:46,737 INFO 28295 didReady
+2020-12-03 13:10:46,762 INFO 28295 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:10:46,844 INFO 28295 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:10:46,864 INFO 28295 serverDidReady
+2020-12-03 13:10:46,902 INFO 28295 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:10:48,127 INFO 28309 didLoad
+2020-12-03 13:10:48,128 INFO 28309 app.config.env: local
+2020-12-03 13:10:48,135 INFO 28309 willReady
+2020-12-03 13:10:48,136 INFO 28309 didReady
+2020-12-03 13:10:48,161 INFO 28309 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:10:48,239 INFO 28309 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:10:48,257 INFO 28309 serverDidReady
+2020-12-03 13:10:48,286 INFO 28309 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:10:51,450 INFO 28318 didLoad
+2020-12-03 13:10:51,450 INFO 28318 app.config.env: local
+2020-12-03 13:10:51,458 INFO 28318 willReady
+2020-12-03 13:10:51,459 INFO 28318 didReady
+2020-12-03 13:10:51,486 INFO 28318 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:10:51,586 INFO 28318 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:10:51,603 INFO 28318 serverDidReady
+2020-12-03 13:10:51,634 INFO 28318 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:10:52,647 INFO 28323 didLoad
+2020-12-03 13:10:52,648 INFO 28323 app.config.env: local
+2020-12-03 13:10:52,657 INFO 28323 willReady
+2020-12-03 13:10:52,657 INFO 28323 didReady
+2020-12-03 13:10:52,690 INFO 28323 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:10:52,790 INFO 28323 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:10:52,811 INFO 28323 serverDidReady
+2020-12-03 13:10:52,851 INFO 28323 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:10:54,316 INFO 28338 didLoad
+2020-12-03 13:10:54,317 INFO 28338 app.config.env: local
+2020-12-03 13:10:54,324 INFO 28338 willReady
+2020-12-03 13:10:54,325 INFO 28338 didReady
+2020-12-03 13:10:54,351 INFO 28338 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:10:54,429 INFO 28338 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:10:54,446 INFO 28338 serverDidReady
+2020-12-03 13:10:54,476 INFO 28338 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:10:57,229 INFO 28346 didLoad
+2020-12-03 13:10:57,229 INFO 28346 app.config.env: local
+2020-12-03 13:10:57,238 INFO 28346 willReady
+2020-12-03 13:10:57,238 INFO 28346 didReady
+2020-12-03 13:10:57,268 INFO 28346 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:10:57,353 INFO 28346 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:10:57,374 INFO 28346 serverDidReady
+2020-12-03 13:10:57,410 INFO 28346 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:10:59,488 INFO 28363 didLoad
+2020-12-03 13:10:59,489 INFO 28363 app.config.env: local
+2020-12-03 13:10:59,497 INFO 28363 willReady
+2020-12-03 13:10:59,497 INFO 28363 didReady
+2020-12-03 13:10:59,522 INFO 28363 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:10:59,600 INFO 28363 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:10:59,619 INFO 28363 serverDidReady
+2020-12-03 13:10:59,650 INFO 28363 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:11:01,077 INFO 28369 didLoad
+2020-12-03 13:11:01,078 INFO 28369 app.config.env: local
+2020-12-03 13:11:01,086 INFO 28369 willReady
+2020-12-03 13:11:01,086 INFO 28369 didReady
+2020-12-03 13:11:01,117 INFO 28369 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:11:01,201 INFO 28369 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:11:01,220 INFO 28369 serverDidReady
+2020-12-03 13:11:01,266 INFO 28369 [egg-sequelize](4ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:11:20,075 INFO 28369 [egg-sequelize](3ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 13:12:38,964 INFO 28487 didLoad
+2020-12-03 13:12:38,965 INFO 28487 app.config.env: local
+2020-12-03 13:12:38,973 INFO 28487 willReady
+2020-12-03 13:12:38,974 INFO 28487 didReady
+2020-12-03 13:12:39,000 INFO 28487 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:12:39,081 INFO 28487 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:12:39,098 INFO 28487 serverDidReady
+2020-12-03 13:12:39,127 INFO 28487 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:12:42,568 INFO 28508 didLoad
+2020-12-03 13:12:42,569 INFO 28508 app.config.env: local
+2020-12-03 13:12:42,578 INFO 28508 willReady
+2020-12-03 13:12:42,578 INFO 28508 didReady
+2020-12-03 13:12:42,606 INFO 28508 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:12:42,687 INFO 28508 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:12:42,705 INFO 28508 serverDidReady
+2020-12-03 13:12:42,733 INFO 28508 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:12:48,130 INFO 28530 didLoad
+2020-12-03 13:12:48,130 INFO 28530 app.config.env: local
+2020-12-03 13:12:48,138 INFO 28530 willReady
+2020-12-03 13:12:48,139 INFO 28530 didReady
+2020-12-03 13:12:48,164 INFO 28530 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:12:48,244 INFO 28530 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:12:48,262 INFO 28530 serverDidReady
+2020-12-03 13:12:48,289 INFO 28530 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:13:51,106 INFO 28632 didLoad
+2020-12-03 13:13:51,106 INFO 28632 app.config.env: local
+2020-12-03 13:13:51,114 INFO 28632 willReady
+2020-12-03 13:13:51,115 INFO 28632 didReady
+2020-12-03 13:13:51,141 INFO 28632 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:13:51,219 INFO 28632 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:13:51,236 INFO 28632 serverDidReady
+2020-12-03 13:13:51,265 INFO 28632 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:13:53,905 INFO 28653 didLoad
+2020-12-03 13:13:53,905 INFO 28653 app.config.env: local
+2020-12-03 13:13:53,913 INFO 28653 willReady
+2020-12-03 13:13:53,914 INFO 28653 didReady
+2020-12-03 13:13:53,939 INFO 28653 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:13:54,018 INFO 28653 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:13:54,035 INFO 28653 serverDidReady
+2020-12-03 13:13:54,064 INFO 28653 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:13:57,897 INFO 28659 didLoad
+2020-12-03 13:13:57,897 INFO 28659 app.config.env: local
+2020-12-03 13:13:57,905 INFO 28659 willReady
+2020-12-03 13:13:57,905 INFO 28659 didReady
+2020-12-03 13:13:57,931 INFO 28659 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:13:58,009 INFO 28659 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:13:58,027 INFO 28659 serverDidReady
+2020-12-03 13:13:58,056 INFO 28659 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:14:28,338 INFO 28706 didLoad
+2020-12-03 13:14:28,338 INFO 28706 app.config.env: local
+2020-12-03 13:14:28,347 INFO 28706 willReady
+2020-12-03 13:14:28,347 INFO 28706 didReady
+2020-12-03 13:14:28,377 INFO 28706 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:14:28,466 INFO 28706 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:14:28,493 INFO 28706 serverDidReady
+2020-12-03 13:14:28,517 INFO 28706 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:14:29,278 INFO 28716 didLoad
+2020-12-03 13:14:29,279 INFO 28716 app.config.env: local
+2020-12-03 13:14:29,283 INFO 28716 serverDidReady
+2020-12-03 13:14:29,289 INFO 28716 willReady
+2020-12-03 13:14:29,289 INFO 28716 didReady
+2020-12-03 13:14:29,318 INFO 28716 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:14:29,397 INFO 28716 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:14:29,443 INFO 28716 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:14:31,119 INFO 28721 didLoad
+2020-12-03 13:14:31,119 INFO 28721 app.config.env: local
+2020-12-03 13:14:31,127 INFO 28721 willReady
+2020-12-03 13:14:31,128 INFO 28721 didReady
+2020-12-03 13:14:31,153 INFO 28721 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:14:31,232 INFO 28721 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:14:31,250 INFO 28721 serverDidReady
+2020-12-03 13:14:31,279 INFO 28721 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:14:32,063 INFO 28728 didLoad
+2020-12-03 13:14:32,063 INFO 28728 app.config.env: local
+2020-12-03 13:14:32,071 INFO 28728 willReady
+2020-12-03 13:14:32,072 INFO 28728 didReady
+2020-12-03 13:14:32,100 INFO 28728 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:14:32,179 INFO 28728 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:14:32,196 INFO 28728 serverDidReady
+2020-12-03 13:14:32,226 INFO 28728 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 13:14:33,274 INFO 28737 didLoad
+2020-12-03 13:14:33,274 INFO 28737 app.config.env: local
+2020-12-03 13:14:33,283 INFO 28737 willReady
+2020-12-03 13:14:33,284 INFO 28737 didReady
+2020-12-03 13:14:33,313 INFO 28737 initRedis, host:127.0.0.1, port:6379
+2020-12-03 13:14:33,407 INFO 28737 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 13:14:33,429 INFO 28737 serverDidReady
+2020-12-03 13:14:33,469 INFO 28737 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 14:06:49,066 INFO 33073 didLoad
+2020-12-03 14:06:49,067 INFO 33073 app.config.env: local
+2020-12-03 14:06:49,079 INFO 33073 willReady
+2020-12-03 14:06:49,080 INFO 33073 didReady
+2020-12-03 14:06:49,115 INFO 33073 initRedis, host:127.0.0.1, port:6379
+2020-12-03 14:06:49,221 INFO 33073 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 14:06:49,244 INFO 33073 serverDidReady
+2020-12-03 14:06:49,283 INFO 33073 [egg-sequelize](4ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 14:06:59,985 INFO 33073 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 14:07:00,010 ERROR 33073 [-/127.0.0.1/-/25ms POST /keep_growing/web/login] nodejs.TypeError: Cannot read property 'push' of undefined
+    at WebController.login (/Users/gaojianbo/Documents/private/keep_growing_server/app/controller/web.js:42:30)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/koa-static-cache/index.js:39:63
+
+pid: 33073
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 14:07:24,510 INFO 33124 didLoad
+2020-12-03 14:07:24,510 INFO 33124 app.config.env: local
+2020-12-03 14:07:24,519 INFO 33124 willReady
+2020-12-03 14:07:24,519 INFO 33124 didReady
+2020-12-03 14:07:24,549 INFO 33124 initRedis, host:127.0.0.1, port:6379
+2020-12-03 14:07:24,630 INFO 33124 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 14:07:24,648 INFO 33124 serverDidReady
+2020-12-03 14:07:24,674 INFO 33124 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 14:07:25,514 INFO 33130 didLoad
+2020-12-03 14:07:25,515 INFO 33130 app.config.env: local
+2020-12-03 14:07:25,523 INFO 33130 willReady
+2020-12-03 14:07:25,523 INFO 33130 didReady
+2020-12-03 14:07:25,554 INFO 33130 initRedis, host:127.0.0.1, port:6379
+2020-12-03 14:07:25,635 INFO 33130 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 14:07:25,653 INFO 33130 serverDidReady
+2020-12-03 14:07:25,683 INFO 33130 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 14:07:55,029 INFO 33168 didLoad
+2020-12-03 14:07:55,029 INFO 33168 app.config.env: local
+2020-12-03 14:07:55,037 INFO 33168 willReady
+2020-12-03 14:07:55,038 INFO 33168 didReady
+2020-12-03 14:07:55,066 INFO 33168 initRedis, host:127.0.0.1, port:6379
+2020-12-03 14:07:55,146 INFO 33168 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 14:07:55,163 INFO 33168 serverDidReady
+2020-12-03 14:07:55,188 INFO 33168 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 14:08:01,876 INFO 33195 didLoad
+2020-12-03 14:08:01,877 INFO 33195 app.config.env: local
+2020-12-03 14:08:01,885 INFO 33195 willReady
+2020-12-03 14:08:01,885 INFO 33195 didReady
+2020-12-03 14:08:01,910 INFO 33195 initRedis, host:127.0.0.1, port:6379
+2020-12-03 14:08:01,987 INFO 33195 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 14:08:02,006 INFO 33195 serverDidReady
+2020-12-03 14:08:02,036 INFO 33195 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 14:10:11,950 INFO 33439 didLoad
+2020-12-03 14:10:11,950 INFO 33439 app.config.env: local
+2020-12-03 14:10:11,959 INFO 33439 willReady
+2020-12-03 14:10:11,959 INFO 33439 didReady
+2020-12-03 14:10:11,988 INFO 33439 initRedis, host:127.0.0.1, port:6379
+2020-12-03 14:10:12,072 INFO 33439 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 14:10:12,090 INFO 33439 serverDidReady
+2020-12-03 14:10:12,119 INFO 33439 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 14:10:16,840 INFO 33461 didLoad
+2020-12-03 14:10:16,840 INFO 33461 app.config.env: local
+2020-12-03 14:10:16,848 INFO 33461 willReady
+2020-12-03 14:10:16,849 INFO 33461 didReady
+2020-12-03 14:10:16,876 INFO 33461 initRedis, host:127.0.0.1, port:6379
+2020-12-03 14:10:16,957 INFO 33461 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 14:10:16,975 INFO 33461 serverDidReady
+2020-12-03 14:10:17,002 INFO 33461 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 14:10:29,890 INFO 33483 didLoad
+2020-12-03 14:10:29,891 INFO 33483 app.config.env: local
+2020-12-03 14:10:29,899 INFO 33483 willReady
+2020-12-03 14:10:29,900 INFO 33483 didReady
+2020-12-03 14:10:29,930 INFO 33483 initRedis, host:127.0.0.1, port:6379
+2020-12-03 14:10:30,015 INFO 33483 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 14:10:30,034 INFO 33483 serverDidReady
+2020-12-03 14:10:30,066 INFO 33483 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 14:10:36,105 INFO 33483 [egg-sequelize](3ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 14:11:22,298 INFO 33581 didLoad
+2020-12-03 14:11:22,298 INFO 33581 app.config.env: local
+2020-12-03 14:11:22,307 INFO 33581 willReady
+2020-12-03 14:11:22,307 INFO 33581 didReady
+2020-12-03 14:11:22,334 INFO 33581 initRedis, host:127.0.0.1, port:6379
+2020-12-03 14:11:22,415 INFO 33581 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 14:11:22,432 INFO 33581 serverDidReady
+2020-12-03 14:11:22,457 INFO 33581 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 14:20:49,829 INFO 33581 [egg-sequelize](3ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 14:21:23,313 INFO 34663 didLoad
+2020-12-03 14:21:23,314 INFO 34663 app.config.env: local
+2020-12-03 14:21:23,323 INFO 34663 willReady
+2020-12-03 14:21:23,323 INFO 34663 didReady
+2020-12-03 14:21:23,351 INFO 34663 initRedis, host:127.0.0.1, port:6379
+2020-12-03 14:21:23,432 INFO 34663 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 14:21:23,449 INFO 34663 serverDidReady
+2020-12-03 14:21:23,481 INFO 34663 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 14:27:19,437 INFO 34663 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 14:36:08,788 INFO 35999 didLoad
+2020-12-03 14:36:08,789 INFO 35999 app.config.env: local
+2020-12-03 14:36:08,799 INFO 35999 willReady
+2020-12-03 14:36:08,799 INFO 35999 didReady
+2020-12-03 14:36:08,846 INFO 35999 initRedis, host:127.0.0.1, port:6379
+2020-12-03 14:36:08,972 INFO 35999 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 14:36:08,990 INFO 35999 serverDidReady
+2020-12-03 14:36:09,027 INFO 35999 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 14:36:09,769 INFO 36014 didLoad
+2020-12-03 14:36:09,769 INFO 36014 app.config.env: local
+2020-12-03 14:36:09,778 INFO 36014 willReady
+2020-12-03 14:36:09,778 INFO 36014 didReady
+2020-12-03 14:36:09,803 INFO 36014 initRedis, host:127.0.0.1, port:6379
+2020-12-03 14:36:09,885 INFO 36014 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 14:36:09,902 INFO 36014 serverDidReady
+2020-12-03 14:36:09,937 INFO 36014 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 14:36:17,553 INFO 36038 didLoad
+2020-12-03 14:36:17,554 INFO 36038 app.config.env: local
+2020-12-03 14:36:17,562 INFO 36038 willReady
+2020-12-03 14:36:17,562 INFO 36038 didReady
+2020-12-03 14:36:17,591 INFO 36038 initRedis, host:127.0.0.1, port:6379
+2020-12-03 14:36:17,679 INFO 36038 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 14:36:17,696 INFO 36038 serverDidReady
+2020-12-03 14:36:17,724 INFO 36038 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 14:36:20,951 INFO 36053 didLoad
+2020-12-03 14:36:20,952 INFO 36053 app.config.env: local
+2020-12-03 14:36:20,960 INFO 36053 willReady
+2020-12-03 14:36:20,960 INFO 36053 didReady
+2020-12-03 14:36:20,989 INFO 36053 initRedis, host:127.0.0.1, port:6379
+2020-12-03 14:36:21,078 INFO 36053 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 14:36:21,096 INFO 36053 serverDidReady
+2020-12-03 14:36:21,124 INFO 36053 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 14:36:24,809 INFO 36069 didLoad
+2020-12-03 14:36:24,809 INFO 36069 app.config.env: local
+2020-12-03 14:36:24,817 INFO 36069 willReady
+2020-12-03 14:36:24,817 INFO 36069 didReady
+2020-12-03 14:36:24,848 INFO 36069 initRedis, host:127.0.0.1, port:6379
+2020-12-03 14:36:24,942 INFO 36069 initSequelize, host:127.0.0.1, port:1101
+2020-12-03 14:36:24,960 INFO 36069 serverDidReady
+2020-12-03 14:36:24,988 INFO 36069 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-03 14:36:30,000 INFO 36069 [egg-sequelize](3ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 14:41:47,973 INFO 36069 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 14:54:23,551 INFO 36069 [egg-sequelize](2ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 15:24:24,965 INFO 36069 [egg-sequelize](3ms) Executed (default): SELECT `id`, `telephone`, `username`, `password`, `create_stamp` AS `createStamp`, `modify_stamp` AS `modifyStamp` FROM `users` AS `users` WHERE `users`.`username` = 'jaygao' LIMIT 1;
+2020-12-03 15:35:07,416 INFO 41152 didLoad
+2020-12-03 15:35:07,417 INFO 41152 app.config.env: local
+2020-12-03 15:35:07,426 ERROR 41152 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot destructure property 'DATE' of 'app.Sequelize' as it is undefined.
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/app/model/collectMerchant.js:8:11)
+    at getExports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 41152
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 15:35:07,426 INFO 41152 didReady
+2020-12-03 15:35:07,475 INFO 41152 initRedis, host:127.0.0.1, port:6379
+2020-12-03 15:35:07,585 INFO 41152 nodejs.Error: [egg-sequelize] app[model] is already defined
+    at loadDatabase (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:73:13)
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:32:20)
+    at AppBootHook.initSequelize (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:150:7)
+    at AppBootHook.didReady (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:131:16)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at runNextTicks (node:internal/process/task_queues:62:3)
+    at processImmediate (node:internal/timers:436:9)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:193:13
+
+pid: 41152
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 15:35:08,596 INFO 41172 didLoad
+2020-12-03 15:35:08,597 INFO 41172 app.config.env: local
+2020-12-03 15:35:08,602 ERROR 41172 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot destructure property 'DATE' of 'app.Sequelize' as it is undefined.
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/app/model/collectMerchant.js:8:11)
+    at getExports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 41172
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 15:35:08,602 INFO 41172 didReady
+2020-12-03 15:35:08,629 INFO 41172 initRedis, host:127.0.0.1, port:6379
+2020-12-03 15:35:08,698 INFO 41172 nodejs.Error: [egg-sequelize] app[model] is already defined
+    at loadDatabase (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:73:13)
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:32:20)
+    at AppBootHook.initSequelize (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:150:7)
+    at AppBootHook.didReady (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:131:16)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at runNextTicks (node:internal/process/task_queues:62:3)
+    at processImmediate (node:internal/timers:436:9)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:193:13
+
+pid: 41172
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 15:35:09,651 INFO 41178 didLoad
+2020-12-03 15:35:09,651 INFO 41178 app.config.env: local
+2020-12-03 15:35:09,672 ERROR 41178 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot destructure property 'DATE' of 'app.Sequelize' as it is undefined.
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/app/model/collectMerchant.js:8:11)
+    at getExports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 41178
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 15:35:09,672 INFO 41178 didReady
+2020-12-03 15:35:09,699 INFO 41178 initRedis, host:127.0.0.1, port:6379
+2020-12-03 15:35:09,765 INFO 41178 nodejs.Error: [egg-sequelize] app[model] is already defined
+    at loadDatabase (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:73:13)
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:32:20)
+    at AppBootHook.initSequelize (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:150:7)
+    at AppBootHook.didReady (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:131:16)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at runNextTicks (node:internal/process/task_queues:62:3)
+    at processImmediate (node:internal/timers:436:9)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:193:13
+
+pid: 41178
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 15:35:46,661 INFO 41236 didLoad
+2020-12-03 15:35:46,662 INFO 41236 app.config.env: local
+2020-12-03 15:35:46,667 ERROR 41236 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot destructure property 'DATE' of 'app.Sequelize' as it is undefined.
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/app/model/collectMerchant.js:8:11)
+    at getExports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 41236
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 15:35:46,667 INFO 41236 didReady
+2020-12-03 15:35:46,692 INFO 41236 initRedis, host:127.0.0.1, port:6379
+2020-12-03 15:35:46,782 INFO 41236 nodejs.Error: [egg-sequelize] app[model] is already defined
+    at loadDatabase (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:73:13)
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:32:20)
+    at AppBootHook.initSequelize (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:150:7)
+    at AppBootHook.didReady (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:131:16)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at runNextTicks (node:internal/process/task_queues:62:3)
+    at processImmediate (node:internal/timers:436:9)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:193:13
+
+pid: 41236
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 15:35:49,404 INFO 41258 didLoad
+2020-12-03 15:35:49,404 INFO 41258 app.config.env: local
+2020-12-03 15:35:49,430 ERROR 41258 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot destructure property 'DATE' of 'app.Sequelize' as it is undefined.
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/app/model/collectMerchant.js:8:11)
+    at getExports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 41258
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 15:35:49,431 INFO 41258 didReady
+2020-12-03 15:35:49,458 INFO 41258 initRedis, host:127.0.0.1, port:6379
+2020-12-03 15:35:49,527 INFO 41258 nodejs.Error: [egg-sequelize] app[model] is already defined
+    at loadDatabase (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:73:13)
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:32:20)
+    at AppBootHook.initSequelize (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:150:7)
+    at AppBootHook.didReady (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:131:16)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at runNextTicks (node:internal/process/task_queues:62:3)
+    at processImmediate (node:internal/timers:436:9)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:193:13
+
+pid: 41258
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 15:35:51,383 INFO 41266 didLoad
+2020-12-03 15:35:51,383 INFO 41266 app.config.env: local
+2020-12-03 15:35:51,406 ERROR 41266 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot destructure property 'DATE' of 'app.Sequelize' as it is undefined.
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/app/model/collectMerchant.js:8:11)
+    at getExports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 41266
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 15:35:51,406 INFO 41266 didReady
+2020-12-03 15:35:51,432 INFO 41266 initRedis, host:127.0.0.1, port:6379
+2020-12-03 15:35:51,513 INFO 41266 nodejs.Error: [egg-sequelize] app[model] is already defined
+    at loadDatabase (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:73:13)
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:32:20)
+    at AppBootHook.initSequelize (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:150:7)
+    at AppBootHook.didReady (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:131:16)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at runNextTicks (node:internal/process/task_queues:62:3)
+    at processImmediate (node:internal/timers:436:9)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:193:13
+
+pid: 41266
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 15:35:54,192 INFO 41283 didLoad
+2020-12-03 15:35:54,192 INFO 41283 app.config.env: local
+2020-12-03 15:35:54,215 ERROR 41283 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot destructure property 'DATE' of 'app.Sequelize' as it is undefined.
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/app/model/collectMerchant.js:8:11)
+    at getExports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 41283
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 15:35:54,216 INFO 41283 didReady
+2020-12-03 15:35:54,241 INFO 41283 initRedis, host:127.0.0.1, port:6379
+2020-12-03 15:35:54,319 INFO 41283 nodejs.Error: [egg-sequelize] app[model] is already defined
+    at loadDatabase (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:73:13)
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:32:20)
+    at AppBootHook.initSequelize (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:150:7)
+    at AppBootHook.didReady (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:131:16)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at runNextTicks (node:internal/process/task_queues:62:3)
+    at processImmediate (node:internal/timers:436:9)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:193:13
+
+pid: 41283
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 15:35:55,724 INFO 41291 didLoad
+2020-12-03 15:35:55,724 INFO 41291 app.config.env: local
+2020-12-03 15:35:55,729 ERROR 41291 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot destructure property 'DATE' of 'app.Sequelize' as it is undefined.
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/app/model/collectMerchant.js:8:11)
+    at getExports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 41291
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 15:35:55,729 INFO 41291 didReady
+2020-12-03 15:35:55,754 INFO 41291 initRedis, host:127.0.0.1, port:6379
+2020-12-03 15:35:55,819 INFO 41291 nodejs.Error: [egg-sequelize] app[model] is already defined
+    at loadDatabase (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:73:13)
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:32:20)
+    at AppBootHook.initSequelize (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:150:7)
+    at AppBootHook.didReady (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:131:16)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at runNextTicks (node:internal/process/task_queues:62:3)
+    at processImmediate (node:internal/timers:436:9)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:193:13
+
+pid: 41291
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 15:35:57,447 INFO 41299 didLoad
+2020-12-03 15:35:57,448 INFO 41299 app.config.env: local
+2020-12-03 15:35:57,473 ERROR 41299 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot destructure property 'DATE' of 'app.Sequelize' as it is undefined.
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/app/model/collectMerchant.js:8:11)
+    at getExports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 41299
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 15:35:57,473 INFO 41299 didReady
+2020-12-03 15:35:57,502 INFO 41299 initRedis, host:127.0.0.1, port:6379
+2020-12-03 15:35:57,575 INFO 41299 nodejs.Error: [egg-sequelize] app[model] is already defined
+    at loadDatabase (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:73:13)
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:32:20)
+    at AppBootHook.initSequelize (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:150:7)
+    at AppBootHook.didReady (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:131:16)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at runNextTicks (node:internal/process/task_queues:62:3)
+    at processImmediate (node:internal/timers:436:9)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:193:13
+
+pid: 41299
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 15:36:04,230 INFO 41325 didLoad
+2020-12-03 15:36:04,231 INFO 41325 app.config.env: local
+2020-12-03 15:36:04,261 ERROR 41325 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot destructure property 'DATE' of 'app.Sequelize' as it is undefined.
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/app/model/collectMerchant.js:8:11)
+    at getExports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 41325
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 15:36:04,262 INFO 41325 didReady
+2020-12-03 15:36:04,288 INFO 41325 initRedis, host:127.0.0.1, port:6379
+2020-12-03 15:36:04,376 INFO 41325 nodejs.Error: [egg-sequelize] app[model] is already defined
+    at loadDatabase (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:73:13)
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:32:20)
+    at AppBootHook.initSequelize (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:150:7)
+    at AppBootHook.didReady (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:131:16)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at runNextTicks (node:internal/process/task_queues:62:3)
+    at processImmediate (node:internal/timers:436:9)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:193:13
+
+pid: 41325
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 15:36:46,744 INFO 41421 didLoad
+2020-12-03 15:36:46,744 INFO 41421 app.config.env: local
+2020-12-03 15:36:46,774 ERROR 41421 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot destructure property 'DATE' of 'app.Sequelize' as it is undefined.
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/app/model/collectMerchant.js:8:11)
+    at getExports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 41421
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 15:36:46,774 INFO 41421 didReady
+2020-12-03 15:36:46,808 INFO 41421 initRedis, host:127.0.0.1, port:6379
+2020-12-03 15:36:46,881 INFO 41421 nodejs.Error: [egg-sequelize] app[model] is already defined
+    at loadDatabase (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:73:13)
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:32:20)
+    at AppBootHook.initSequelize (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:150:7)
+    at AppBootHook.didReady (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:131:16)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at runNextTicks (node:internal/process/task_queues:62:3)
+    at processImmediate (node:internal/timers:436:9)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:193:13
+
+pid: 41421
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 15:36:51,428 INFO 41440 didLoad
+2020-12-03 15:36:51,429 INFO 41440 app.config.env: local
+2020-12-03 15:36:51,470 ERROR 41440 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot destructure property 'DATE' of 'app.Sequelize' as it is undefined.
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/app/model/collectMerchant.js:8:11)
+    at getExports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:220:15)
+    at FileLoader.parse (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (node:internal/process/task_queues:75:11)
+
+pid: 41440
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 15:36:51,470 INFO 41440 didReady
+2020-12-03 15:36:51,498 INFO 41440 initRedis, host:127.0.0.1, port:6379
+2020-12-03 15:36:51,584 INFO 41440 nodejs.Error: [egg-sequelize] app[model] is already defined
+    at loadDatabase (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:73:13)
+    at module.exports (/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-sequelize/lib/loader.js:32:20)
+    at AppBootHook.initSequelize (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:150:7)
+    at AppBootHook.didReady (/Users/gaojianbo/Documents/private/keep_growing_server/app.js:131:16)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    at runNextTicks (node:internal/process/task_queues:62:3)
+    at processImmediate (node:internal/timers:436:9)
+    at async /Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-core/lib/lifecycle.js:193:13
+
+pid: 41440
+hostname: gaojianbodeMacBook-Pro.local
+
+2020-12-03 15:49:42,528 INFO 42649 didLoad
+2020-12-03 15:49:42,528 INFO 42649 app.config.env: prod
+2020-12-03 15:49:42,539 INFO 42649 willReady
+2020-12-03 15:49:42,604 INFO 42648 didLoad
+2020-12-03 15:49:42,604 INFO 42648 app.config.env: prod
+2020-12-03 15:49:42,613 INFO 42648 willReady
+2020-12-03 15:49:42,647 INFO 42654 didLoad
+2020-12-03 15:49:42,647 INFO 42654 app.config.env: prod
+2020-12-03 15:49:42,656 INFO 42654 willReady
+2020-12-03 15:49:42,650 INFO 42652 didLoad
+2020-12-03 15:49:42,650 INFO 42652 app.config.env: prod
+2020-12-03 15:49:42,660 INFO 42652 willReady
+2020-12-03 15:49:42,656 INFO 42650 didLoad
+2020-12-03 15:49:42,656 INFO 42650 app.config.env: prod
+2020-12-03 15:49:42,684 INFO 42650 willReady
+2020-12-03 15:49:42,678 INFO 42653 didLoad
+2020-12-03 15:49:42,678 INFO 42653 app.config.env: prod
+2020-12-03 15:49:42,687 INFO 42653 willReady
+2020-12-03 15:49:42,673 INFO 42651 didLoad
+2020-12-03 15:49:42,673 INFO 42651 app.config.env: prod
+2020-12-03 15:49:42,689 INFO 42651 willReady
+2020-12-03 15:49:42,693 INFO 42647 didLoad
+2020-12-03 15:49:42,693 INFO 42647 app.config.env: prod
+2020-12-03 15:49:42,708 INFO 42647 willReady
+2020-12-03 15:49:42,699 INFO 42658 didLoad
+2020-12-03 15:49:42,699 INFO 42658 app.config.env: prod
+2020-12-03 15:49:42,722 INFO 42658 willReady
+2020-12-03 15:49:42,736 INFO 42656 didLoad
+2020-12-03 15:49:42,736 INFO 42656 app.config.env: prod
+2020-12-03 15:49:42,747 INFO 42656 willReady
+2020-12-03 15:49:42,739 INFO 42655 didLoad
+2020-12-03 15:49:42,739 INFO 42655 app.config.env: prod
+2020-12-03 15:49:42,749 INFO 42655 willReady
+2020-12-03 15:49:42,754 INFO 42657 didLoad
+2020-12-03 15:49:42,754 INFO 42657 app.config.env: prod
+2020-12-03 15:49:42,763 INFO 42657 willReady

@@ -86,7 +86,7 @@
       "cookieMaxAge": "1y"
     },
     "watcher": {
-      "type": "development",
+      "type": "default",
       "eventSources": {
         "default": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-watcher/lib/event-sources/default",
         "development": "/Users/gaojianbo/Documents/private/keep_growing_server/node_modules/egg-watcher/lib/event-sources/development"
@@ -117,14 +117,6 @@
         "cron": "0 30 4 * * *"
       }
     },
-    "development": {
-      "watchDirs": [],
-      "ignoreDirs": [],
-      "fastReady": false,
-      "reloadOnDebug": true,
-      "overrideDefault": false,
-      "overrideIgnore": false
-    },
     "logrotator": {
       "filesRotateByHour": null,
       "hourDelimiter": "-",
@@ -139,12 +131,13 @@
       "dir": "/Users/gaojianbo/Documents/private/keep_growing_server/app/public",
       "dynamic": true,
       "preload": false,
-      "buffer": false,
-      "maxFiles": 1000
+      "buffer": true,
+      "maxFiles": 1000,
+      "maxAge": 31536000
     },
     "view": {
       "root": "/Users/gaojianbo/Documents/private/keep_growing_server/app/view",
-      "cache": false,
+      "cache": true,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
@@ -154,7 +147,7 @@
       "origin": "*",
       "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH"
     },
-    "env": "local",
+    "env": "prod",
     "name": "keep_growing_server",
     "keys": "<String len: 38>",
     "cookies": {},
@@ -176,12 +169,14 @@
         "consul": "^0.39.0",
         "egg": "^2.28.0",
         "egg-cors": "^2.2.3",
+        "egg-mongoose": "^3.3.1",
         "egg-path-matching": "^1.0.1",
         "egg-redis": "^2.4.0",
         "egg-scripts": "^2.13.0",
         "egg-sequelize": "^6.0.0",
         "egg-validate": "^2.0.2",
         "ip": "^1.1.5",
+        "jsonwebtoken": "^8.5.1",
         "mysql2": "^2.2.5"
       },
       "devDependencies": {
@@ -255,19 +250,17 @@
     "logger": {
       "dir": "/Users/gaojianbo/Documents/private/keep_growing_server/logs/",
       "encoding": "utf8",
-      "env": "local",
+      "env": "prod",
       "level": "INFO",
       "consoleLevel": "INFO",
-      "disableConsoleAfterReady": false,
+      "disableConsoleAfterReady": true,
       "outputJSON": false,
       "buffer": true,
       "appLogName": "keep_growing_server.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {
-        "consoleLevel": "WARN"
-      },
+      "coreLogger": {},
       "allowDebugAtProd": false,
       "type": "agent"
     },
@@ -317,26 +310,21 @@
     },
     "onClientError": null,
     "middleware": [
-      "httpAuth"
+      "jwt"
     ],
+    "jwt": {
+      "enable": true,
+      "match": "<Function pathMatch>"
+    },
     "redis": {
       "app": false,
-      "agent": false,
-      "client": {
-        "host": "127.0.0.1",
-        "port": 16379,
-        "password": "<String len: 11>",
-        "db": 0
-      }
+      "agent": false
     },
-    "sequelize": {
-      "dialect": "mysql",
-      "host": "127.0.0.1",
-      "port": 1101,
-      "database": "keep_growing_web",
-      "username": "root",
-      "password": "<String len: 6>",
-      "timezone": "+08:00"
+    "consul": {
+      "server": {
+        "host": "consul",
+        "port": 8500
+      }
     },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
@@ -416,7 +404,7 @@
       "version": "2.8.0"
     },
     "development": {
-      "enable": true,
+      "enable": false,
       "package": "egg-development",
       "name": "development",
       "dependencies": [

@@ -3,9 +3,11 @@
 
 import 'egg';
 import ExportHttpAuth = require('../../../app/middleware/httpAuth');
+import ExportJwt = require('../../../app/middleware/jwt');
 
 declare module 'egg' {
   interface IMiddleware {
     httpAuth: typeof ExportHttpAuth;
+    jwt: typeof ExportJwt;
   }
 }

@@ -14,7 +14,7 @@ class AppBootHook {
     // 这是应用层修改配置的最后时机
     // 注意：此函数只支持同步调用
 
-    this.app.logger.info('configWillLoad');
+    // this.app.logger.info('configWillLoad');
   }
 
   async didLoad() {
@@ -34,7 +34,7 @@ class AppBootHook {
     // });
 
     this.app.services = {};
-    this.app.userObj = {};
+    this.app.loginedUserArr = [];
     this.app.parkPortMap = {};
   }
 
@@ -61,7 +61,6 @@ class AppBootHook {
     // } catch (error) {
     //   this.app.logger.error('[fetchConfig has error]', error);
     // }
-
   }
 
   setEggConfig(resultJSON) {
@@ -128,8 +127,22 @@ class AppBootHook {
   async didReady() {
     // 应用已经启动完毕
     this.app.logger.info('didReady');
-    // await this.initRedis();
+    await this.initRedis();
+    await this.initMongodb()
     await this.initSequelize();
+  }
+
+  async initMongodb() {
+    try {
+      const mongodb = require('egg-mongoose/lib/mongoose');
+      mongodb(this.app);
+      const mongodbConf = this.app.config.mongodb;
+      this.app.logger.info(
+        `initMongodb, host:${mongodbConf.client.host}, port:${mongodbConf.client.port}`
+      );
+    } catch (error) {
+      this.app.logger.info(error);
+    }
   }
 
   async initRedis() {

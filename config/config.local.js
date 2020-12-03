@@ -28,9 +28,22 @@ module.exports = () => {
       agent: false,
       client: {
         host: '127.0.0.1',
-        port: 16379,
-        password: 'hangtian123',
+        port: 6379,
+        password: 123456,
         db: 0,
+      },
+    },
+
+    // mongodb配置
+    mongodb: {
+      app: false,
+      agent: false,
+      client: {
+        dialect: 'mongodb',
+        host: '127.0.0.1',
+        port: 27017,
+        user: 'admin',
+        password: 123456
       },
     },
 

@@ -6,7 +6,6 @@ class WebController extends Controller {
   // 网页登录
   async login() {
     const { ctx } = this
-    console.log(this.ctx.request.body)
     try {
       ctx.validate(
         {
@@ -34,9 +33,18 @@ class WebController extends Controller {
       const res = await ctx.service.web.queryByUsername(payload)
       if (res) {
         if (res.password === password) {
-          // 该用户存在
+          const data = { userinfo: res }
+          // token生成
+          const token = ctx.helper.loginToken({ userid: res.id }, 600)
+          // 保存到redis
+          await ctx.app.redis.set(token, JSON.stringify(res), 'EX', 600) // 7200秒后过期
+          // 当前登录的userId
+          ctx.app.loginedUserArr.push(res.id)
+          data.token = token
+          data.expires = 600
           ctx.body = {
             status: true,
+            data,
             code: 200,
             msg: '用户登录成功',
           }
@@ -66,7 +74,7 @@ class WebController extends Controller {
     }
   }
   // 网页注册
-  async login() {
+  async registry() {
     const { ctx } = this
     console.log(this.ctx.request.body)
     try {
@@ -74,7 +82,7 @@ class WebController extends Controller {
         {
           username: { type: 'string' },
           password: { type: 'string' },
-          telephone: { type: 'string' }
+          telephone: { type: 'string' },
         },
         ctx.request.body
       )
@@ -96,11 +104,14 @@ class WebController extends Controller {
         password,
       }
       const res = await ctx.service.web.createUser(payload)
+      ctx.logger.info('web controller registry方法结果', res)
       if (res) {
-        if (res.created) {
+        const [data, created] = res
+        if (created) {
           ctx.body = {
             status: true,
             code: 200,
+            data,
             msg: '新用户注册成功',
           }
         } else {
@@ -108,7 +119,7 @@ class WebController extends Controller {
           ctx.body = {
             status: true,
             code: 406,
-            msg: '用户已存在',
+            msg: '该用户已存在',
           }
         }
       } else {
@@ -130,5 +141,4 @@ class WebController extends Controller {
     }
   }
 }
-
 module.exports = WebController

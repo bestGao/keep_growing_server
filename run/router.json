@@ -18,6 +18,18 @@
       "POST"
     ],
     "paramNames": [],
+    "path": "/keep_growing/web/registry",
+    "regexp": "/^\\/keep_growing\\/web\\/registry(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
     "path": "/keep_growing/web/login",
     "regexp": "/^\\/keep_growing\\/web\\/login(?:\\/(?=$))?$/",
     "stack": [

@@ -16,6 +16,11 @@ module.exports = (app) => {
         autoIncrement: true,
         comment: '自增id',
       },
+      telephone: {
+        type: STRING(255),
+        allowNull: false,
+        comment: '手机号',
+      },
       username: {
         type: STRING(255),
         allowNull: false,
