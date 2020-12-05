@@ -14,6 +14,7 @@ import ExportOutside = require('../../../app/controller/outside');
 import ExportPermission = require('../../../app/controller/permission');
 import ExportWeather = require('../../../app/controller/weather');
 import ExportWeb = require('../../../app/controller/web');
+import ExportWebArticle = require('../../../app/controller/webArticle');
 
 declare module 'egg' {
   interface IController {
@@ -29,5 +30,6 @@ declare module 'egg' {
     permission: ExportPermission;
     weather: ExportWeather;
     web: ExportWeb;
+    webArticle: ExportWebArticle;
   }
 }

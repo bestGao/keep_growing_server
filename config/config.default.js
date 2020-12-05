@@ -28,6 +28,18 @@ module.exports = (appInfo) => {
 
   // add your user config here
   const userConfig = {
+    mongoose: {
+      client: {
+        url: 'mongodb://localhost/gao_web_articles',
+        options: {
+          auth: { authSource: 'admin' },
+          user: 'admin',
+          pass: '123456',
+          useNewUrlParser: true,
+        },
+      },
+      loadModel: false,
+    },
     // myAppName: 'egg',
     security: {
       csrf: {
@@ -79,7 +91,7 @@ module.exports = (appInfo) => {
     middleware: ['jwt'],
     jwt: {
       enable: true,
-      match
+      match,
     },
     // middleware: ['httpAuth'],
     // httpAuth: {
@@ -98,6 +110,21 @@ module.exports = (appInfo) => {
       agent: false,
     },
 
+    // mongoose配置
+    // mongoose: {
+    //   app: false,
+    //   agent: false,
+    //   loadModel: false,
+    //   client: {
+    //     url: 'mongodb://127.0.0.1/gao_web_articles',
+    //     options: {
+    //       user: 'root',
+    //       pass: '123456',
+    //       useNewUrlParser: true,
+    //     },
+    //   },
+    // },
+
     // 日志配置
     logger: {
       level: 'INFO',
@@ -109,6 +136,16 @@ module.exports = (appInfo) => {
       errorLogName: 'common-error.log',
     },
   }
+
+  // userConfig.mongoose = {
+  //   client: {
+  //     url: 'mongodb://localhost/gao_web_articles',
+  //     options: {
+  //       useNewUrlParser: true
+  //     }
+  //   },
+  //   loadModel: false
+  // };
 
   return {
     cluster: {

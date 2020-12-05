@@ -11,7 +11,6 @@ import ExportMerchantRolePermission = require('../../../app/model/merchantRolePe
 import ExportModular = require('../../../app/model/modular');
 import ExportPage = require('../../../app/model/page');
 import ExportPageOperation = require('../../../app/model/pageOperation');
-import ExportWebUser = require('../../../app/model/webUser');
 
 declare module 'egg' {
   interface IModel {
@@ -24,6 +23,5 @@ declare module 'egg' {
     Modular: ReturnType<typeof ExportModular>;
     Page: ReturnType<typeof ExportPage>;
     PageOperation: ReturnType<typeof ExportPageOperation>;
-    WebUser: ReturnType<typeof ExportWebUser>;
   }
 }

@@ -34,22 +34,18 @@ module.exports = () => {
       },
     },
 
-    // mongodb配置
-    mongodb: {
+    sequelize: {
       app: false,
       agent: false,
-      client: {
-        dialect: 'mongodb',
-        host: '127.0.0.1',
-        port: 27017,
-        user: 'admin',
-        password: 123456
-      },
-    },
-
-    sequelize: {
       dialect: 'mysql',
       host: '127.0.0.1',
+      // delegate: 'modelmysql',
+      // baseDir: 'model/mysql',
+      pool: {
+        max: 5,
+        min: 0,
+        idle: 10000, // 超时时间
+      },
       port: 1101,
       database: 'keep_growing_web',
       username: 'root',

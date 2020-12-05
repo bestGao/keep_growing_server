@@ -21,15 +21,15 @@ class MerchantRoleController extends Controller {
     //   return;
     // }
 
-    const { pageSize = 10, pageNo = 1, ...otherQuery } = ctx.query;
-    const query = { limit: parseInt(pageSize, 10), offset: parseInt(pageSize * (pageNo - 1), 10) };
-    const merchantUserId = ctx.user.user_id;
+    // const { pageSize = 10, pageNo = 1, ...otherQuery } = ctx.query;
+    // const query = { limit: parseInt(pageSize, 10), offset: parseInt(pageSize * (pageNo - 1), 10) };
+    // const merchantUserId = ctx.user.user_id;
 
     try {
       const { count, rows } = await ctx.service.merchantRole.query({
-        merchantUserId,
-        ...query,
-        ...filterParams(otherQuery),
+        // merchantUserId,
+        // ...query,
+        // ...filterParams(otherQuery),
       });
 
       ctx.body = {

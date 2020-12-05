@@ -2,15 +2,19 @@
 
 const Controller = require('egg').Controller
 
-class WebController extends Controller {
-  // 网页登录
-  async login() {
+class WebArticleController extends Controller {
+  // 保存文章
+  async saveArticle() {
     const { ctx } = this
     try {
       ctx.validate(
         {
           username: { type: 'string' },
-          password: { type: 'string' },
+          userId: { type: 'int' },
+          // articleId: { type: 'int' },
+          title: { type: 'string' },
+          summary: { type: 'string' },
+          article: { type: 'string' },
         },
         ctx.request.body
       )
@@ -25,40 +29,18 @@ class WebController extends Controller {
     }
 
     try {
-      const { username, password } = ctx.request.body
-      const payload = {
-        username,
-        password,
-      }
-      const res = await ctx.service.web.queryByUsername(payload)
+      // const { username, password } = ctx.request.body
+      // const payload = {
+      //   username,
+      //   password,
+      // }
+      const res = await ctx.service.article.saveArticle(ctx.request.body)
       if (res) {
-        if (res.password === password) {
-          const data = { userinfo: res }
-          // token生成
-          const token = ctx.helper.loginToken({ userId: res.id }, 60000)
-          // 保存到redis
-          ctx.app.logger.error(ctx.app.loginedUserArr)
-          if (ctx.app.loginedUserArr.find((item) => item.userToken === token)) {
-          } else {
-            await ctx.app.redis.set(token, JSON.stringify(res), 'EX', 60000)
-            // 7200秒后过期
-            // 当前登录的userId
-            ctx.app.loginedUserArr.push({ userId: res.id, userToken: token })
-          }
-          data.token = token
-          data.expires = 60000
-          ctx.body = {
-            status: true,
-            data,
-            code: 200,
-            msg: '用户登录成功',
-          }
-        } else {
-          ctx.body = {
-            status: true,
-            code: 500,
-            msg: '用户名密码不匹配',
-          }
+        ctx.body = {
+          status: true,
+          data: res,
+          code: 200,
+          msg: '用户登录成功',
         }
       } else {
         // 用户不存在
@@ -78,8 +60,8 @@ class WebController extends Controller {
       }
     }
   }
-  // 网页注册
-  async registry() {
+  // 获取文章详情
+  async queryArticle() {
     const { ctx } = this
     console.log(this.ctx.request.body)
     try {
@@ -108,8 +90,8 @@ class WebController extends Controller {
         telephone,
         password,
       }
-      const res = await ctx.service.web.createUser(payload)
-      ctx.logger.info('web controller registry方法结果', res)
+      const res = await ctx.service.webArticle.getArticleById(payload)
+      ctx.logger.info('webArticle controller queryArticle方法结果', res)
       if (res) {
         const [data, created] = res
         if (created) {
@@ -146,4 +128,4 @@ class WebController extends Controller {
     }
   }
 }
-module.exports = WebController
+module.exports = WebArticleController
